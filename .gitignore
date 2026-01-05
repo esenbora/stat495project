@@ -1,0 +1,5 @@
+.DS_Store
+
+# Large data files
+data/raw/afad_full_historical_1990_2025.json
+data/raw/afad_full_historical_1990_2025.csv
