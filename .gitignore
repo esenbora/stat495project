@@ -1,5 +1,36 @@
 .DS_Store
 
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
 # Large data files
 data/raw/afad_full_historical_1990_2025.json
 data/raw/afad_full_historical_1990_2025.csv
+data/processed/earthquakes_processed.csv
+data/processed/tremors_only.csv
+data/processed/earthquakes_only.csv
+
+# Logs
+*.log

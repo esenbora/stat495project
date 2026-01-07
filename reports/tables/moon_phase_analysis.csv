@@ -1,0 +1,5 @@
+moon_phase,count,mag_mean,mag_max,depth_mean
+Full Moon,46215,1.99,7.4,8.19
+New Moon,120240,1.97,6.8,8.17
+Waning,304525,1.98,7.7,8.16
+Waxing,53972,1.99,7.2,8.19

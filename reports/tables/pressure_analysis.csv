@@ -1,0 +1,4 @@
+Metric,Value
+Correlation (Pressure-Magnitude),0.0051
+Correlation (Pressure-Depth),-0.0063
+T-test p-value,0.7084

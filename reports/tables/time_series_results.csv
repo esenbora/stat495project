@@ -1,0 +1,11 @@
+Metric,Value
+Mann-Kendall S (all events),65690
+Mann-Kendall p-value (all events),0.0000e+00
+Trend (all events),increasing
+Mann-Kendall S (M>=4),34843
+Mann-Kendall p-value (M>=4),0.0000e+00
+Trend (M>=4),increasing
+Mean inter-event time (days),3.18
+Best fit distribution,weibull
+Exponential KS p-value,0.0000
+Weibull KS p-value,0.0000

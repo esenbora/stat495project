@@ -1,0 +1,82 @@
+province_id,province_name,region,lat,lon,elevation_m,vs30_estimated,soil_class,soil_class_desc,vs30_range_min,vs30_range_max,liquefaction_risk,liquefaction_risk_tr,amplification_factor,seismic_hazard,seismic_hazard_tr,geology_type,tectonic_setting
+1,Adana,Akdeniz,37.0,35.3213,23,210,ZC,Dense soil (sıkı zemin),160,260,High,Yüksek,1.9,High,Yüksek,Limestone/alluvium,Moderate
+2,Adıyaman,Güneydoğu Anadolu,37.7648,38.2786,672,398,ZB,Soft rock (yumuşak kaya),348,448,Very Low,Çok Düşük,1.38,Very High,Çok Yüksek,Sedimentary/limestone,Active EAF
+3,Afyonkarahisar,Ege,38.7507,30.5567,1021,345,ZC,Dense soil (sıkı zemin),295,395,Medium,Orta,1.48,High,Yüksek,Graben sediments,Active extension
+4,Ağrı,Doğu Anadolu,39.7191,43.0503,1640,570,ZB,Soft rock (yumuşak kaya),520,620,Very Low,Çok Düşük,1.15,High,Yüksek,Volcanic/metamorphic,Active collision
+5,Amasya,Karadeniz,40.6499,35.8353,412,402,ZB,Soft rock (yumuşak kaya),352,452,Very Low,Çok Düşük,1.37,Medium,Orta,Metamorphic/volcanic,Stable
+6,Ankara,İç Anadolu,39.9208,32.8541,938,448,ZB,Soft rock (yumuşak kaya),398,498,Very Low,Çok Düşük,1.3,Medium,Orta,Volcanic/plateau,Low
+7,Antalya,Akdeniz,36.8841,30.7056,30,270,ZC,Dense soil (sıkı zemin),220,320,High,Yüksek,1.68,High,Yüksek,Limestone/alluvium,Moderate
+8,Artvin,Karadeniz,41.1828,41.8183,552,432,ZB,Soft rock (yumuşak kaya),382,482,Very Low,Çok Düşük,1.33,Medium,Orta,Metamorphic/volcanic,Stable
+9,Aydın,Ege,37.856,27.8416,58,265,ZC,Dense soil (sıkı zemin),215,315,Medium,Orta,1.69,High,Yüksek,Graben sediments,Active extension
+10,Balıkesir,Ege,39.6484,27.8826,92,265,ZC,Dense soil (sıkı zemin),215,315,Medium,Orta,1.69,High,Yüksek,Graben sediments,Active extension
+11,Bilecik,Marmara,40.0567,30.0665,480,252,ZC,Dense soil (sıkı zemin),202,302,Medium,Orta,1.74,High,Yüksek,Sedimentary basins,Active NAF
+12,Bingöl,Doğu Anadolu,39.0626,40.7696,1151,540,ZB,Soft rock (yumuşak kaya),490,590,Very Low,Çok Düşük,1.19,Very High,Çok Yüksek,Volcanic/metamorphic,Active collision
+13,Bitlis,Doğu Anadolu,38.3938,42.1232,1547,570,ZB,Soft rock (yumuşak kaya),520,620,Very Low,Çok Düşük,1.15,High,Yüksek,Volcanic/metamorphic,Active collision
+14,Bolu,Karadeniz,40.576,31.5788,725,432,ZB,Soft rock (yumuşak kaya),382,482,Very Low,Çok Düşük,1.33,Very High,Çok Yüksek,Metamorphic/volcanic,Stable
+15,Burdur,Akdeniz,37.4613,30.0665,967,350,ZC,Dense soil (sıkı zemin),300,400,Medium,Orta,1.47,High,Yüksek,Limestone/alluvium,Moderate
+16,Bursa,Marmara,40.2669,29.0634,100,192,ZC,Dense soil (sıkı zemin),150,242,Medium,Orta,1.99,High,Yüksek,Sedimentary basins,Active NAF
+17,Çanakkale,Marmara,40.1553,26.4142,7,202,ZC,Dense soil (sıkı zemin),152,252,High,Yüksek,1.94,High,Yüksek,Sedimentary basins,Active NAF
+18,Çankırı,İç Anadolu,40.6013,33.6134,751,448,ZB,Soft rock (yumuşak kaya),398,498,Very Low,Çok Düşük,1.3,Medium,Orta,Volcanic/plateau,Low
+19,Çorum,Karadeniz,40.5506,34.9556,801,432,ZB,Soft rock (yumuşak kaya),382,482,Very Low,Çok Düşük,1.33,Medium,Orta,Metamorphic/volcanic,Stable
+20,Denizli,Ege,37.7765,29.0864,354,285,ZC,Dense soil (sıkı zemin),235,335,Medium,Orta,1.63,High,Yüksek,Graben sediments,Active extension
+21,Diyarbakır,Güneydoğu Anadolu,37.9144,40.2306,677,398,ZB,Soft rock (yumuşak kaya),348,448,Very Low,Çok Düşük,1.38,High,Yüksek,Sedimentary/limestone,Active EAF
+22,Edirne,Marmara,41.6818,26.5623,42,202,ZC,Dense soil (sıkı zemin),152,252,High,Yüksek,1.94,High,Yüksek,Sedimentary basins,Active NAF
+23,Elazığ,Doğu Anadolu,38.681,39.2264,1067,540,ZB,Soft rock (yumuşak kaya),490,590,Very Low,Çok Düşük,1.19,Very High,Çok Yüksek,Volcanic/metamorphic,Active collision
+24,Erzincan,Doğu Anadolu,39.75,39.5,1185,470,ZB,Soft rock (yumuşak kaya),420,520,Very Low,Çok Düşük,1.27,Very High,Çok Yüksek,Volcanic/metamorphic,Active collision
+25,Erzurum,Doğu Anadolu,39.9,41.27,1893,570,ZB,Soft rock (yumuşak kaya),520,620,Very Low,Çok Düşük,1.15,High,Yüksek,Volcanic/metamorphic,Active collision
+26,Eskişehir,İç Anadolu,39.7767,30.5206,792,448,ZB,Soft rock (yumuşak kaya),398,498,Very Low,Çok Düşük,1.3,Medium,Orta,Volcanic/plateau,Low
+27,Gaziantep,Güneydoğu Anadolu,37.0662,37.3833,842,398,ZB,Soft rock (yumuşak kaya),348,448,Very Low,Çok Düşük,1.38,Very High,Çok Yüksek,Sedimentary/limestone,Active EAF
+28,Giresun,Karadeniz,40.9128,38.3895,10,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,Medium,Orta,Metamorphic/volcanic,Stable
+29,Gümüşhane,Karadeniz,40.4386,39.5086,1153,462,ZB,Soft rock (yumuşak kaya),412,512,Very Low,Çok Düşük,1.28,Medium,Orta,Metamorphic/volcanic,Stable
+30,Hakkari,Doğu Anadolu,37.5833,43.7333,1728,570,ZB,Soft rock (yumuşak kaya),520,620,Very Low,Çok Düşük,1.15,High,Yüksek,Volcanic/metamorphic,Active collision
+31,Hatay,Akdeniz,36.4018,36.3498,80,200,ZC,Dense soil (sıkı zemin),150,250,Medium,Orta,1.95,Very High,Çok Yüksek,Limestone/alluvium,Moderate
+32,Isparta,Akdeniz,37.7648,30.5566,1049,380,ZB,Soft rock (yumuşak kaya),330,430,Low,Düşük,1.41,High,Yüksek,Limestone/alluvium,Moderate
+33,Mersin,Akdeniz,36.8,34.6333,7,220,ZC,Dense soil (sıkı zemin),170,270,High,Yüksek,1.86,High,Yüksek,Limestone/alluvium,Moderate
+34,İstanbul,Marmara,41.0053,28.977,40,150,ZE,Soft soil (gevşek zemin),150,200,Very High,Çok Yüksek,2.25,Very High,Çok Yüksek,Sedimentary basins,Active NAF
+35,İzmir,Ege,38.4189,27.1287,29,150,ZE,Soft soil (gevşek zemin),150,200,Very High,Çok Yüksek,2.25,High,Yüksek,Graben sediments,Active extension
+36,Kars,Doğu Anadolu,40.6167,43.1,1768,570,ZB,Soft rock (yumuşak kaya),520,620,Very Low,Çok Düşük,1.15,High,Yüksek,Volcanic/metamorphic,Active collision
+37,Kastamonu,Karadeniz,41.3887,33.7827,775,432,ZB,Soft rock (yumuşak kaya),382,482,Very Low,Çok Düşük,1.33,Medium,Orta,Metamorphic/volcanic,Stable
+38,Kayseri,İç Anadolu,38.7312,35.4787,1054,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+39,Kırklareli,Marmara,41.7333,27.2167,232,252,ZC,Dense soil (sıkı zemin),202,302,Medium,Orta,1.74,High,Yüksek,Sedimentary basins,Active NAF
+40,Kırşehir,İç Anadolu,39.1425,34.1709,1007,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+41,Kocaeli,Marmara,40.8533,29.8815,28,150,ZE,Soft soil (gevşek zemin),150,200,Very High,Çok Yüksek,2.25,Very High,Çok Yüksek,Sedimentary basins,Active NAF
+42,Konya,İç Anadolu,37.8667,32.4833,1016,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+43,Kütahya,Ege,39.4167,29.9833,969,315,ZC,Dense soil (sıkı zemin),265,365,Medium,Orta,1.55,High,Yüksek,Graben sediments,Active extension
+44,Malatya,Doğu Anadolu,38.3552,38.3095,964,450,ZB,Soft rock (yumuşak kaya),400,500,Very Low,Çok Düşük,1.3,Very High,Çok Yüksek,Volcanic/metamorphic,Active collision
+45,Manisa,Ege,38.6191,27.4289,71,265,ZC,Dense soil (sıkı zemin),215,315,Medium,Orta,1.69,High,Yüksek,Graben sediments,Active extension
+46,Kahramanmaraş,Akdeniz,37.5858,36.9371,512,350,ZC,Dense soil (sıkı zemin),300,400,Medium,Orta,1.47,Very High,Çok Yüksek,Limestone/alluvium,Moderate
+47,Mardin,Güneydoğu Anadolu,37.3212,40.7245,1083,428,ZB,Soft rock (yumuşak kaya),378,478,Very Low,Çok Düşük,1.33,High,Yüksek,Sedimentary/limestone,Active EAF
+48,Muğla,Ege,37.2153,28.3636,646,315,ZC,Dense soil (sıkı zemin),265,365,Medium,Orta,1.55,High,Yüksek,Graben sediments,Active extension
+49,Muş,Doğu Anadolu,38.9462,41.7539,1350,540,ZB,Soft rock (yumuşak kaya),490,590,Very Low,Çok Düşük,1.19,Very High,Çok Yüksek,Volcanic/metamorphic,Active collision
+50,Nevşehir,İç Anadolu,38.6939,34.6857,1224,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+51,Niğde,İç Anadolu,37.9667,34.6833,1229,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+52,Ordu,Karadeniz,40.9839,37.8764,5,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,Medium,Orta,Metamorphic/volcanic,Stable
+53,Rize,Karadeniz,41.0201,40.5234,15,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,Medium,Orta,Metamorphic/volcanic,Stable
+54,Sakarya,Marmara,40.694,30.4358,31,150,ZE,Soft soil (gevşek zemin),150,200,Very High,Çok Yüksek,2.25,Very High,Çok Yüksek,Sedimentary basins,Active NAF
+55,Samsun,Karadeniz,41.2928,36.3313,4,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,High,Yüksek,Metamorphic/volcanic,Stable
+56,Siirt,Güneydoğu Anadolu,37.9333,41.95,896,398,ZB,Soft rock (yumuşak kaya),348,448,Very Low,Çok Düşük,1.38,High,Yüksek,Sedimentary/limestone,Active EAF
+57,Sinop,Karadeniz,42.0231,35.1531,2,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,Medium,Orta,Metamorphic/volcanic,Stable
+58,Sivas,İç Anadolu,39.7477,37.0179,1285,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+59,Tekirdağ,Marmara,40.9833,27.5167,5,202,ZC,Dense soil (sıkı zemin),152,252,High,Yüksek,1.94,High,Yüksek,Sedimentary basins,Active NAF
+60,Tokat,Karadeniz,40.3167,36.55,623,432,ZB,Soft rock (yumuşak kaya),382,482,Very Low,Çok Düşük,1.33,High,Yüksek,Metamorphic/volcanic,Stable
+61,Trabzon,Karadeniz,41.0015,39.7178,14,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,Medium,Orta,Metamorphic/volcanic,Stable
+62,Tunceli,Doğu Anadolu,39.3074,39.4388,978,510,ZB,Soft rock (yumuşak kaya),460,560,Very Low,Çok Düşük,1.22,High,Yüksek,Volcanic/metamorphic,Active collision
+63,Şanlıurfa,Güneydoğu Anadolu,37.1591,38.7969,518,398,ZB,Soft rock (yumuşak kaya),348,448,Very Low,Çok Düşük,1.38,High,Yüksek,Sedimentary/limestone,Active EAF
+64,Uşak,Ege,38.6823,29.4082,919,315,ZC,Dense soil (sıkı zemin),265,365,Medium,Orta,1.55,High,Yüksek,Graben sediments,Active extension
+65,Van,Doğu Anadolu,38.4891,43.4089,1727,490,ZB,Soft rock (yumuşak kaya),440,540,Very Low,Çok Düşük,1.25,Very High,Çok Yüksek,Volcanic/metamorphic,Active collision
+66,Yozgat,İç Anadolu,39.8181,34.8147,1301,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+67,Zonguldak,Karadeniz,41.4564,31.7987,10,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,Medium,Orta,Metamorphic/volcanic,Stable
+68,Aksaray,İç Anadolu,38.3687,34.037,980,448,ZB,Soft rock (yumuşak kaya),398,498,Very Low,Çok Düşük,1.3,Medium,Orta,Volcanic/plateau,Low
+69,Bayburt,Karadeniz,40.2552,40.2249,1550,492,ZB,Soft rock (yumuşak kaya),442,542,Very Low,Çok Düşük,1.24,Medium,Orta,Metamorphic/volcanic,Stable
+70,Karaman,İç Anadolu,37.1759,33.2287,1018,478,ZB,Soft rock (yumuşak kaya),428,528,Very Low,Çok Düşük,1.26,Medium,Orta,Volcanic/plateau,Low
+71,Kırıkkale,İç Anadolu,39.8468,33.5153,749,448,ZB,Soft rock (yumuşak kaya),398,498,Very Low,Çok Düşük,1.3,Medium,Orta,Volcanic/plateau,Low
+72,Batman,Güneydoğu Anadolu,37.8812,41.1351,540,398,ZB,Soft rock (yumuşak kaya),348,448,Very Low,Çok Düşük,1.38,High,Yüksek,Sedimentary/limestone,Active EAF
+73,Şırnak,Güneydoğu Anadolu,37.4187,42.4918,1400,428,ZB,Soft rock (yumuşak kaya),378,478,Very Low,Çok Düşük,1.33,High,Yüksek,Sedimentary/limestone,Active EAF
+74,Bartın,Karadeniz,41.5811,32.461,25,352,ZC,Dense soil (sıkı zemin),302,402,Medium,Orta,1.47,Medium,Orta,Metamorphic/volcanic,Stable
+75,Ardahan,Doğu Anadolu,41.1105,42.7022,1829,570,ZB,Soft rock (yumuşak kaya),520,620,Very Low,Çok Düşük,1.15,High,Yüksek,Volcanic/metamorphic,Active collision
+76,Iğdır,Doğu Anadolu,39.888,44.0048,858,510,ZB,Soft rock (yumuşak kaya),460,560,Very Low,Çok Düşük,1.22,High,Yüksek,Volcanic/metamorphic,Active collision
+77,Yalova,Marmara,40.65,29.2667,10,150,ZE,Soft soil (gevşek zemin),150,200,Very High,Çok Yüksek,2.25,Very High,Çok Yüksek,Sedimentary basins,Active NAF
+78,Karabük,Karadeniz,41.2061,32.6204,380,402,ZB,Soft rock (yumuşak kaya),352,452,Very Low,Çok Düşük,1.37,Medium,Orta,Metamorphic/volcanic,Stable
+79,Kilis,Güneydoğu Anadolu,36.7184,37.1212,640,398,ZB,Soft rock (yumuşak kaya),348,448,Very Low,Çok Düşük,1.38,High,Yüksek,Sedimentary/limestone,Active EAF
+80,Osmaniye,Akdeniz,37.213,36.1763,118,300,ZC,Dense soil (sıkı zemin),250,350,Medium,Orta,1.59,Very High,Çok Yüksek,Limestone/alluvium,Moderate
+81,Düzce,Karadeniz,40.8438,31.1565,145,302,ZC,Dense soil (sıkı zemin),252,352,Medium,Orta,1.59,Very High,Çok Yüksek,Metamorphic/volcanic,Stable

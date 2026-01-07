@@ -1,0 +1,18 @@
+station_id,station_name,lat,lon,velocity_east_mm_yr,velocity_north_mm_yr,velocity_total_mm_yr,azimuth_deg,uncertainty_mm_yr,plate,region,reference_frame,data_source,measurement_period
+ANKR,Ankara,39.89,32.76,-3.2,-15.8,16.1,191,1.5,Anatolia,Central Anatolia,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+ISTA,Istanbul,41.1,29.02,-7.5,-19.2,20.6,201,1.2,Anatolia,Marmara,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+IZMI,İzmir,38.39,27.08,-12.5,-22.3,25.6,209,1.3,Anatolia,Aegean,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+ANTE,Antakya,36.2,36.16,2.1,-12.5,12.7,170,1.8,Arabia/Anatolia boundary,Hatay,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+TRAB,Trabzon,41.0,39.72,-1.5,-11.2,11.3,188,1.6,Anatolia,Black Sea,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+DIYB,Diyarbakır,37.91,40.21,4.5,-13.8,14.5,162,1.7,Arabia/Anatolia,Southeast Anatolia,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+ANLY,Antalya,36.88,30.69,-8.2,-18.5,20.2,204,1.4,Anatolia,Mediterranean,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+ERZI,Erzincan,39.75,39.49,2.8,-14.2,14.5,169,1.5,Anatolia,East Anatolia,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+VAN1,Van,38.49,43.38,7.2,-15.5,17.1,155,1.8,Arabia/Anatolia,East Anatolia,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+BURS,Bursa,40.19,29.06,-6.8,-18.5,19.7,200,1.3,Anatolia,Marmara,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+SAMS,Samsun,41.29,36.33,-2.8,-13.5,13.8,192,1.5,Anatolia,Black Sea,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+KAYS,Kayseri,38.73,35.48,-0.5,-14.8,14.8,182,1.6,Anatolia,Central Anatolia,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+MALA,Malatya,38.35,38.31,3.5,-14.5,14.9,166,1.6,Anatolia/EAF,East Anatolia,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+ELAZ,Elazığ,38.67,39.22,4.2,-14.8,15.4,164,1.7,Anatolia/EAF,East Anatolia,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+ANTL,Antalya Airport,36.9,30.8,-9.1,-19.2,21.2,205,1.4,Anatolia,Mediterranean,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+ARAB,Arabian Plate (reference),33.0,44.0,10.5,-18.2,21.0,150,2.0,Arabia,Reference,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020
+KRET,Crete (Aegean reference),35.24,25.01,-15.5,-30.2,33.9,207,1.5,Aegean,South Aegean,Eurasia-fixed (ITRF2014),"GPS measurements (McClusky et al. 2000, Reilinger et al. 2006, Nocquet 2012)",1988-2020

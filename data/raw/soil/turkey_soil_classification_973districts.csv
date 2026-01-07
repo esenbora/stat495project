@@ -1,0 +1,974 @@
+district_id,province_name,district_name,region,lat,lon,elevation_m,vs30_estimated,soil_class,liquefaction_risk,seismic_hazard,amplification_factor
+1,Adana,Aladağ,Akdeniz,37.0,35.5232,0,223,ZC,Medium,High,1.85
+2,Adana,Ceyhan,Akdeniz,37.0709,35.5112,0,195,ZC,Medium,High,1.97
+3,Adana,Çukurova,Akdeniz,37.1411,35.4725,185,234,ZC,Medium,High,1.8
+4,Adana,Feke,Akdeniz,37.0983,35.3583,0,226,ZC,Medium,High,1.83
+5,Adana,İmamoğlu,Akdeniz,37.1689,35.2987,178,224,ZC,Medium,High,1.84
+6,Adana,Karaisalı,Akdeniz,37.1889,35.1891,217,239,ZC,Low,High,1.78
+7,Adana,Karataş,Akdeniz,37.0491,35.2389,0,184,ZC,Medium,High,2.03
+8,Adana,Kozan,Akdeniz,37.0283,35.16,163,259,ZC,Medium,High,1.71
+9,Adana,Pozantı,Akdeniz,36.9838,35.2283,205,258,ZC,Low,High,1.72
+10,Adana,Saimbeyli,Akdeniz,36.874,35.1119,88,246,ZC,Medium,High,1.76
+11,Adana,Sarıçam,Akdeniz,36.8973,35.2488,14,196,ZC,Medium,High,1.97
+12,Adana,Seyhan,Akdeniz,36.7875,35.2932,154,237,ZC,Medium,High,1.79
+13,Adana,Tufanbeyli,Akdeniz,36.9439,35.3419,161,258,ZC,Medium,High,1.72
+14,Adana,Yumurtalık,Akdeniz,36.9081,35.4193,0,204,ZC,Medium,High,1.93
+15,Adana,Yüreğir,Akdeniz,36.9403,35.481,68,222,ZC,Medium,High,1.85
+16,Adıyaman,Besni,Güneydoğu Anadolu,37.76,38.6399,641,414,ZB,Very Low,Very High,1.35
+17,Adıyaman,Çelikhan,Güneydoğu Anadolu,37.7935,38.3279,583,417,ZB,Very Low,Very High,1.35
+18,Adıyaman,Gerger,Güneydoğu Anadolu,38.0114,38.3332,770,387,ZB,Very Low,Very High,1.4
+19,Adıyaman,Gölbaşı,Güneydoğu Anadolu,37.8644,38.2077,565,414,ZB,Very Low,Very High,1.35
+20,Adıyaman,Kahta,Güneydoğu Anadolu,37.782,38.2074,827,394,ZB,Very Low,Very High,1.39
+21,Adıyaman,Merkez,Güneydoğu Anadolu,37.7055,38.1003,679,424,ZB,Very Low,Very High,1.34
+22,Adıyaman,Samsat,Güneydoğu Anadolu,37.6217,38.1842,845,372,ZB,Very Low,Very High,1.43
+23,Adıyaman,Sincik,Güneydoğu Anadolu,37.6266,38.3082,555,406,ZB,Very Low,Very High,1.37
+24,Adıyaman,Tut,Güneydoğu Anadolu,37.5987,38.5106,859,368,ZB,Very Low,Very High,1.44
+25,Afyonkarahisar,Başmakçı,Ege,38.75,30.8144,953,311,ZC,Low,Medium,1.56
+26,Afyonkarahisar,Bayat,Ege,38.7748,30.6418,1130,321,ZC,Low,Medium,1.54
+27,Afyonkarahisar,Bolvadin,Ege,38.9043,30.7807,840,341,ZC,Low,Medium,1.49
+28,Afyonkarahisar,Çay,Ege,38.7947,30.591,1078,372,ZB,Very Low,Medium,1.43
+29,Afyonkarahisar,Çobanlar,Ege,38.9939,30.6116,1192,359,ZC,Low,Medium,1.45
+30,Afyonkarahisar,Dazkırı,Ege,38.8554,30.5377,1114,352,ZC,Low,Medium,1.47
+31,Afyonkarahisar,Dinar,Ege,38.8949,30.4596,1031,338,ZC,Low,Medium,1.5
+32,Afyonkarahisar,Emirdağ,Ege,38.8116,30.472,1036,358,ZC,Low,Medium,1.46
+33,Afyonkarahisar,Evciler,Ege,38.821,30.3258,841,292,ZC,Low,Medium,1.61
+34,Afyonkarahisar,Hocalar,Ege,38.75,30.4169,943,327,ZC,Low,Medium,1.52
+35,Afyonkarahisar,İhsaniye,Ege,38.7258,30.4803,1022,330,ZC,Low,Medium,1.52
+36,Afyonkarahisar,İscehisar,Ege,38.6087,30.3579,954,319,ZC,Low,Medium,1.54
+37,Afyonkarahisar,Kızılören,Ege,38.5479,30.42,1220,358,ZC,Low,Medium,1.46
+38,Afyonkarahisar,Merkez,Ege,38.5917,30.5265,1152,368,ZB,Very Low,Medium,1.44
+39,Afyonkarahisar,Sandıklı,Ege,38.4869,30.6157,1214,356,ZC,Low,Medium,1.46
+40,Afyonkarahisar,Sinanpaşa,Ege,38.6886,30.6025,1147,342,ZC,Low,Medium,1.49
+41,Afyonkarahisar,Sultandağı,Ege,38.602,30.7716,1217,349,ZC,Low,Medium,1.48
+42,Afyonkarahisar,Şuhut,Ege,38.7312,30.622,923,336,ZC,Low,Medium,1.5
+43,Ağrı,Diyadin,Doğu Anadolu,39.72,43.207,1764,540,ZB,Very Low,Medium,1.19
+44,Ağrı,Doğubayazıt,Doğu Anadolu,39.8658,43.225,1716,575,ZB,Very Low,Medium,1.15
+45,Ağrı,Eleşkirt,Doğu Anadolu,39.9197,43.05,1571,572,ZB,Very Low,Medium,1.15
+46,Ağrı,Hamur,Doğu Anadolu,39.8866,42.8501,1629,545,ZB,Very Low,Medium,1.18
+47,Ağrı,Merkez,Doğu Anadolu,39.72,42.8462,1575,546,ZB,Very Low,Medium,1.18
+48,Ağrı,Patnos,Doğu Anadolu,39.5596,42.8575,1440,561,ZB,Very Low,Medium,1.16
+49,Ağrı,Taşlıçay,Doğu Anadolu,39.5901,43.05,1613,580,ZB,Very Low,Medium,1.14
+50,Ağrı,Tutak,Doğu Anadolu,39.5597,43.2424,1616,572,ZB,Very Low,Medium,1.15
+51,Amasya,Göynücek,Karadeniz,40.65,35.9601,269,409,ZB,Very Low,Medium,1.36
+52,Amasya,Gümüşhacıköy,Karadeniz,40.8026,35.986,368,383,ZB,Very Low,Medium,1.41
+53,Amasya,Hamamözü,Karadeniz,40.9351,35.7619,237,401,ZB,Very Low,Medium,1.38
+54,Amasya,Merkez,Karadeniz,40.7335,35.6318,323,377,ZB,Very Low,Medium,1.42
+55,Amasya,Merzifon,Karadeniz,40.56,35.6156,366,411,ZB,Very Low,Medium,1.36
+56,Amasya,Suluova,Karadeniz,40.5549,35.8139,553,438,ZB,Very Low,Medium,1.32
+57,Amasya,Taşova,Karadeniz,40.5394,35.9459,426,377,ZB,Very Low,Medium,1.42
+58,Ankara,Akyurt,İç Anadolu,39.92,32.9706,1029,480,ZB,Very Low,Medium,1.26
+59,Ankara,Altındağ,İç Anadolu,39.9384,32.9359,915,462,ZB,Very Low,Medium,1.28
+60,Ankara,Ayaş,İç Anadolu,40.0536,33.1417,943,419,ZB,Very Low,Medium,1.35
+61,Ankara,Bala,İç Anadolu,40.0364,32.9988,837,436,ZB,Very Low,Medium,1.32
+62,Ankara,Beypazarı,İç Anadolu,39.9776,32.8939,756,442,ZB,Very Low,Medium,1.31
+63,Ankara,Çamlıdere,İç Anadolu,40.1265,32.9305,782,470,ZB,Very Low,Medium,1.27
+64,Ankara,Çankaya,İç Anadolu,39.9812,32.8546,857,456,ZB,Very Low,Medium,1.29
+65,Ankara,Çubuk,İç Anadolu,40.0753,32.8144,1040,501,ZB,Very Low,Medium,1.23
+66,Ankara,Elmadağ,İç Anadolu,39.976,32.8184,758,473,ZB,Very Low,Medium,1.27
+67,Ankara,Etimesgut,İç Anadolu,39.9723,32.7981,1061,501,ZB,Very Low,Medium,1.23
+68,Ankara,Evren,İç Anadolu,39.9763,32.7569,1057,498,ZB,Very Low,Medium,1.24
+69,Ankara,Gölbaşı,İç Anadolu,39.9717,32.6932,792,429,ZB,Very Low,Medium,1.33
+70,Ankara,Güdül,İç Anadolu,39.9449,32.6135,1072,470,ZB,Very Low,Medium,1.27
+71,Ankara,Haymana,İç Anadolu,39.9046,32.7037,845,463,ZB,Very Low,Medium,1.28
+72,Ankara,Kahramankazan,İç Anadolu,39.816,32.5347,1013,494,ZB,Very Low,Medium,1.24
+73,Ankara,Kalecik,İç Anadolu,39.7944,32.6426,884,464,ZB,Very Low,Medium,1.28
+74,Ankara,Keçiören,İç Anadolu,39.7265,32.658,1085,457,ZB,Very Low,Medium,1.29
+75,Ankara,Kızılcahamam,İç Anadolu,39.7809,32.7715,986,466,ZB,Very Low,Medium,1.28
+76,Ankara,Mamak,İç Anadolu,39.7707,32.8158,899,473,ZB,Very Low,Medium,1.27
+77,Ankara,Nallıhan,İç Anadolu,39.7408,32.8635,953,449,ZB,Very Low,Medium,1.3
+78,Ankara,Polatlı,İç Anadolu,39.6897,32.9398,935,440,ZB,Very Low,Medium,1.31
+79,Ankara,Pursaklar,İç Anadolu,39.6907,33.0246,1081,458,ZB,Very Low,Medium,1.29
+80,Ankara,Sincan,İç Anadolu,39.7159,33.1109,913,456,ZB,Very Low,Medium,1.29
+81,Ankara,Şereflikoçhisar,İç Anadolu,39.8048,33.1014,1061,449,ZB,Very Low,Medium,1.3
+82,Ankara,Yenimahalle,İç Anadolu,39.8916,32.9826,869,420,ZB,Very Low,Medium,1.35
+83,Antalya,Akseki,Akdeniz,36.88,31.0394,0,263,ZC,Medium,High,1.7
+84,Antalya,Aksu,Akdeniz,36.9245,30.8654,71,295,ZC,Medium,High,1.61
+85,Antalya,Alanya,Akdeniz,37.0241,30.9322,192,302,ZC,Medium,High,1.59
+86,Antalya,Demre,Akdeniz,37.0463,30.8404,0,272,ZC,Medium,High,1.67
+87,Antalya,Döşemealtı,Akdeniz,37.0918,30.7744,163,329,ZC,Medium,High,1.52
+88,Antalya,Elmalı,Akdeniz,36.9338,30.7046,118,285,ZC,Medium,High,1.63
+89,Antalya,Finike,Akdeniz,37.0789,30.6053,116,274,ZC,Medium,High,1.67
+90,Antalya,Gazipaşa,Akdeniz,37.0965,30.4708,177,299,ZC,Medium,High,1.59
+91,Antalya,Gündoğmuş,Akdeniz,36.9732,30.5033,8,286,ZC,Medium,High,1.63
+92,Antalya,İbradı,Akdeniz,36.8933,30.6144,0,282,ZC,Medium,High,1.64
+93,Antalya,Kaş,Akdeniz,36.8588,30.5573,177,274,ZC,Medium,High,1.67
+94,Antalya,Kemer,Akdeniz,36.7664,30.458,17,258,ZC,Medium,High,1.72
+95,Antalya,Kepez,Akdeniz,36.7776,30.5968,127,289,ZC,Medium,High,1.62
+96,Antalya,Konyaaltı,Akdeniz,36.7843,30.6596,0,266,ZC,Medium,High,1.69
+97,Antalya,Korkuteli,Akdeniz,36.6974,30.6918,0,275,ZC,Medium,High,1.66
+98,Antalya,Kumluca,Akdeniz,36.7632,30.7455,0,292,ZC,Medium,High,1.61
+99,Antalya,Manavgat,Akdeniz,36.671,30.8738,0,275,ZC,Medium,High,1.66
+100,Antalya,Muratpaşa,Akdeniz,36.8151,30.8101,0,264,ZC,Medium,High,1.7
+101,Antalya,Serik,Akdeniz,36.827,30.8951,181,281,ZC,Medium,High,1.64
+102,Artvin,Ardanuç,Karadeniz,41.18,42.0544,608,453,ZB,Very Low,Medium,1.3
+103,Artvin,Arhavi,Karadeniz,41.3336,42.0397,615,411,ZB,Very Low,Medium,1.36
+104,Artvin,Borçka,Karadeniz,41.2857,41.8424,421,373,ZB,Very Low,Medium,1.43
+105,Artvin,Hopa,Karadeniz,41.2711,41.7569,544,455,ZB,Very Low,Medium,1.29
+106,Artvin,Kemalpaşa,Karadeniz,41.219,41.6914,718,428,ZB,Very Low,Medium,1.33
+107,Artvin,Merkez,Karadeniz,41.125,41.6388,414,420,ZB,Very Low,Medium,1.35
+108,Artvin,Murgul,Karadeniz,41.1243,41.7814,451,395,ZB,Very Low,Medium,1.39
+109,Artvin,Şavşat,Karadeniz,41.0194,41.854,614,455,ZB,Very Low,Medium,1.29
+110,Artvin,Yusufeli,Karadeniz,41.0152,42.0556,480,407,ZB,Very Low,Medium,1.37
+111,Aydın,Bozdoğan,Ege,37.86,28.0442,198,279,ZC,Medium,High,1.65
+112,Aydın,Buharkent,Ege,37.9105,27.9964,0,248,ZC,Medium,High,1.75
+113,Aydın,Çine,Ege,37.9211,27.9204,23,233,ZC,Medium,High,1.81
+114,Aydın,Didim,Ege,37.9318,27.8829,0,224,ZC,Medium,High,1.84
+115,Aydın,Efeler,Ege,38.0362,27.8596,132,267,ZC,Medium,High,1.69
+116,Aydın,Germencik,Ege,38.1399,27.7444,167,294,ZC,Medium,High,1.61
+117,Aydın,İncirliova,Ege,37.9098,27.7948,0,221,ZC,Medium,High,1.85
+118,Aydın,Karacasu,Ege,37.9428,27.6796,114,282,ZC,Medium,High,1.64
+119,Aydın,Karpuzlu,Ege,37.907,27.5384,0,259,ZC,Medium,High,1.71
+120,Aydın,Koçarlı,Ege,37.831,27.6536,25,205,ZC,Medium,High,1.93
+121,Aydın,Köşk,Ege,37.7151,27.5592,180,256,ZC,Medium,High,1.72
+122,Aydın,Kuşadası,Ege,37.6558,27.655,252,309,ZC,Low,High,1.57
+123,Aydın,Kuyucak,Ege,37.6949,27.7836,223,257,ZC,Low,High,1.72
+124,Aydın,Nazilli,Ege,37.7587,27.8513,14,222,ZC,Medium,High,1.85
+125,Aydın,Söke,Ege,37.8112,27.8691,15,239,ZC,Medium,High,1.78
+126,Aydın,Sultanhisar,Ege,37.7713,27.9568,216,302,ZC,Low,High,1.59
+127,Aydın,Yenipazar,Ege,37.8344,27.9193,59,269,ZC,Medium,High,1.68
+128,Balıkesir,Altıeylül,Ege,39.65,27.9502,102,254,ZC,Medium,High,1.73
+129,Balıkesir,Ayvalık,Ege,39.7125,28.1108,0,244,ZC,Medium,High,1.76
+130,Balıkesir,Balya,Ege,39.8165,28.155,9,234,ZC,Medium,High,1.8
+131,Balıkesir,Bandırma,Ege,39.7894,28.0015,263,285,ZC,Low,High,1.63
+132,Balıkesir,Bigadiç,Ege,39.8956,27.9758,245,313,ZC,Low,High,1.56
+133,Balıkesir,Burhaniye,Ege,39.905,27.88,53,243,ZC,Medium,High,1.77
+134,Balıkesir,Dursunbey,Ege,39.8163,27.8152,0,261,ZC,Medium,High,1.71
+135,Balıkesir,Edremit,Ege,39.8569,27.6996,51,294,ZC,Medium,High,1.61
+136,Balıkesir,Erdek,Ege,39.7809,27.6637,115,276,ZC,Medium,High,1.66
+137,Balıkesir,Gömeç,Ege,39.7153,27.6389,114,273,ZC,Medium,High,1.67
+138,Balıkesir,Gönen,Ege,39.65,27.7529,142,276,ZC,Medium,High,1.66
+139,Balıkesir,Havran,Ege,39.5616,27.5533,0,221,ZC,Medium,High,1.85
+140,Balıkesir,İvrindi,Ege,39.5654,27.7402,0,243,ZC,Medium,High,1.77
+141,Balıkesir,Karesi,Ege,39.5077,27.7559,10,254,ZC,Medium,High,1.73
+142,Balıkesir,Kepsut,Ege,39.4762,27.8122,169,240,ZC,Medium,High,1.78
+143,Balıkesir,Manyas,Ege,39.5303,27.88,0,230,ZC,Medium,High,1.82
+144,Balıkesir,Marmara,Ege,39.3964,27.9789,251,313,ZC,Low,High,1.56
+145,Balıkesir,Savaştepe,Ege,39.5187,27.9945,0,247,ZC,Medium,High,1.75
+146,Balıkesir,Sındırgı,Ege,39.6015,27.9601,246,272,ZC,Low,High,1.67
+147,Balıkesir,Susurluk,Ege,39.5686,28.1808,106,275,ZC,Medium,High,1.66
+148,Bilecik,Bozüyük,Marmara,40.06,30.1504,363,241,ZC,Low,Medium,1.78
+149,Bilecik,Gölpazarı,Marmara,40.2003,30.2384,585,280,ZC,Low,Medium,1.65
+150,Bilecik,İnhisar,Marmara,40.2835,30.07,508,310,ZC,Low,Medium,1.57
+151,Bilecik,Merkez,Marmara,40.0962,30.0265,498,251,ZC,Low,Medium,1.74
+152,Bilecik,Osmaneli,Marmara,40.06,29.8254,500,259,ZC,Low,Medium,1.71
+153,Bilecik,Pazaryeri,Marmara,39.8593,29.8292,375,250,ZC,Low,Medium,1.74
+154,Bilecik,Söğüt,Marmara,39.8278,30.07,609,273,ZC,Low,Medium,1.67
+155,Bilecik,Yenipazar,Marmara,39.9862,30.1585,657,275,ZC,Low,Medium,1.66
+156,Bingöl,Adaklı,Doğu Anadolu,39.06,41.0107,995,492,ZB,Very Low,Very High,1.24
+157,Bingöl,Genç,Doğu Anadolu,39.2496,40.9975,1119,561,ZB,Very Low,Very High,1.16
+158,Bingöl,Karlıova,Doğu Anadolu,39.1945,40.77,1157,566,ZB,Very Low,Very High,1.16
+159,Bingöl,Kiğı,Doğu Anadolu,39.1722,40.6354,962,511,ZB,Very Low,Very High,1.22
+160,Bingöl,Merkez,Doğu Anadolu,39.06,40.5431,1311,536,ZB,Very Low,Very High,1.19
+161,Bingöl,Solhan,Doğu Anadolu,38.8982,40.5759,1029,521,ZB,Very Low,Very High,1.21
+162,Bingöl,Yayladere,Doğu Anadolu,38.8312,40.77,1282,560,ZB,Very Low,Very High,1.16
+163,Bingöl,Yedisu,Doğu Anadolu,38.9512,40.9005,1304,524,ZB,Very Low,Very High,1.2
+164,Bitlis,Adilcevaz,Doğu Anadolu,38.39,42.3465,1467,512,ZB,Very Low,Medium,1.22
+165,Bitlis,Ahlat,Doğu Anadolu,38.5846,42.3063,1567,598,ZB,Very Low,Medium,1.13
+166,Bitlis,Güroymak,Doğu Anadolu,38.6698,42.0434,1352,567,ZB,Very Low,Medium,1.16
+167,Bitlis,Hizan,Doğu Anadolu,38.4125,42.0638,1668,550,ZB,Very Low,Medium,1.18
+168,Bitlis,Merkez,Doğu Anadolu,38.3447,42.0071,1560,597,ZB,Very Low,Medium,1.13
+169,Bitlis,Mutki,Doğu Anadolu,38.3313,42.1039,1638,589,ZB,Very Low,Medium,1.14
+170,Bitlis,Tatvan,Doğu Anadolu,38.2039,42.2981,1386,546,ZB,Very Low,Medium,1.18
+171,Bolu,Dörtdivan,Karadeniz,40.58,31.8994,829,424,ZB,Very Low,Very High,1.34
+172,Bolu,Gerede,Karadeniz,40.6292,31.6503,807,443,ZB,Very Low,Very High,1.31
+173,Bolu,Göynük,Karadeniz,40.7054,31.6065,754,430,ZB,Very Low,Very High,1.33
+174,Bolu,Kıbrıscık,Karadeniz,40.7634,31.453,826,439,ZB,Very Low,Very High,1.32
+175,Bolu,Mengen,Karadeniz,40.6296,31.4163,801,422,ZB,Very Low,Very High,1.34
+176,Bolu,Merkez,Karadeniz,40.52,31.3823,845,455,ZB,Very Low,Very High,1.29
+177,Bolu,Mudurnu,Karadeniz,40.465,31.5003,574,457,ZB,Very Low,Very High,1.29
+178,Bolu,Seben,Karadeniz,40.5136,31.5941,707,431,ZB,Very Low,Very High,1.33
+179,Bolu,Yeniçağa,Karadeniz,40.4062,31.8285,896,425,ZB,Very Low,Very High,1.34
+180,Burdur,Ağlasun,Akdeniz,37.46,30.1938,1008,372,ZB,Very Low,Medium,1.43
+181,Burdur,Altınyayla,Akdeniz,37.5682,30.272,1020,375,ZB,Very Low,Medium,1.42
+182,Burdur,Bucak,Akdeniz,37.54,30.1139,1084,375,ZB,Very Low,Medium,1.42
+183,Burdur,Çavdır,Akdeniz,37.6999,30.0286,1060,351,ZC,Low,Medium,1.47
+184,Burdur,Çeltikçi,Akdeniz,37.5955,29.9291,1039,405,ZB,Very Low,Medium,1.37
+185,Burdur,Gölhisar,Akdeniz,37.4822,29.9793,1023,351,ZC,Low,Medium,1.47
+186,Burdur,Karamanlı,Akdeniz,37.387,29.7715,940,363,ZB,Very Low,Medium,1.45
+187,Burdur,Kemer,Akdeniz,37.2654,29.8677,874,350,ZC,Low,Medium,1.47
+188,Burdur,Merkez,Akdeniz,37.3843,30.0569,1041,408,ZB,Very Low,Medium,1.36
+189,Burdur,Tefenni,Akdeniz,37.2848,30.166,830,320,ZC,Low,Medium,1.54
+190,Burdur,Yeşilova,Akdeniz,37.3258,30.3206,845,332,ZC,Low,Medium,1.51
+191,Bursa,Büyükorhan,Marmara,40.27,29.148,0,150,ZE,Very High,High,2.25
+192,Bursa,Gemlik,Marmara,40.329,29.2427,0,150,ZE,Very High,High,2.25
+193,Bursa,Gürsu,Marmara,40.3566,29.1739,138,200,ZC,Medium,High,1.95
+194,Bursa,Harmancık,Marmara,40.497,29.1956,125,180,ZD,High,High,2.05
+195,Bursa,İnegöl,Marmara,40.4232,29.077,191,187,ZC,Medium,High,2.02
+196,Bursa,İznik,Marmara,40.3588,29.0297,0,150,ZE,Very High,High,2.25
+197,Bursa,Karacabey,Marmara,40.322,29.0129,173,181,ZC,Medium,High,2.05
+198,Bursa,Keles,Marmara,40.4135,28.7819,154,169,ZD,High,High,2.12
+199,Bursa,Kestel,Marmara,40.2884,28.9418,274,214,ZC,Low,High,1.88
+200,Bursa,Mudanya,Marmara,40.22,28.7387,182,203,ZC,Medium,High,1.93
+201,Bursa,Mustafakemalpaşa,Marmara,40.1276,28.7839,0,173,ZD,High,High,2.1
+202,Bursa,Nilüfer,Marmara,40.1261,28.9296,51,174,ZD,High,High,2.09
+203,Bursa,Orhaneli,Marmara,40.2169,29.0419,8,150,ZE,Very High,High,2.25
+204,Bursa,Orhangazi,Marmara,40.1466,29.0737,0,185,ZC,Medium,High,2.03
+205,Bursa,Osmangazi,Marmara,40.1326,29.1421,222,218,ZC,Low,High,1.87
+206,Bursa,Yenişehir,Marmara,40.2235,29.1212,177,180,ZD,High,High,2.05
+207,Bursa,Yıldırım,Marmara,40.1681,29.3755,0,182,ZC,Medium,High,2.04
+208,Çanakkale,Ayvacık,Marmara,40.16,26.575,125,208,ZC,Medium,High,1.91
+209,Çanakkale,Bayramiç,Marmara,40.1891,26.4705,29,220,ZC,Medium,High,1.86
+210,Çanakkale,Biga,Marmara,40.2122,26.4462,0,211,ZC,Medium,High,1.9
+211,Çanakkale,Bozcaada,Marmara,40.3234,26.41,69,208,ZC,Medium,High,1.91
+212,Çanakkale,Çan,Marmara,40.3382,26.2865,87,236,ZC,Medium,High,1.79
+213,Çanakkale,Eceabat,Marmara,40.2711,26.1792,106,238,ZC,Medium,High,1.79
+214,Çanakkale,Ezine,Marmara,40.16,26.2135,0,173,ZD,High,High,2.1
+215,Çanakkale,Gelibolu,Marmara,40.0918,26.2683,0,209,ZC,Medium,High,1.91
+216,Çanakkale,Gökçeada,Marmara,39.9764,26.2828,47,190,ZC,Medium,High,2.0
+217,Çanakkale,Lapseki,Marmara,39.9714,26.41,0,181,ZC,Medium,High,2.05
+218,Çanakkale,Merkez,Marmara,39.9389,26.5631,0,210,ZC,Medium,High,1.9
+219,Çanakkale,Yenice,Marmara,40.0246,26.6915,59,243,ZC,Medium,High,1.77
+220,Çankırı,Atkaracalar,İç Anadolu,40.6,33.7762,922,446,ZB,Very Low,Medium,1.31
+221,Çankırı,Bayramören,İç Anadolu,40.6501,33.7141,883,456,ZB,Very Low,Medium,1.29
+222,Çankırı,Çerkeş,İç Anadolu,40.714,33.689,685,463,ZB,Very Low,Medium,1.28
+223,Çankırı,Eldivan,İç Anadolu,40.6995,33.61,568,465,ZB,Very Low,Medium,1.28
+224,Çankırı,Ilgaz,İç Anadolu,40.8137,33.4619,740,425,ZB,Very Low,Medium,1.34
+225,Çankırı,Kızılırmak,İç Anadolu,40.6687,33.4671,714,450,ZB,Very Low,Medium,1.3
+226,Çankırı,Korgun,İç Anadolu,40.6,33.466,871,428,ZB,Very Low,Medium,1.33
+227,Çankırı,Kurşunlu,İç Anadolu,40.4913,33.384,583,450,ZB,Very Low,Medium,1.3
+228,Çankırı,Merkez,İç Anadolu,40.4912,33.5346,940,434,ZB,Very Low,Medium,1.32
+229,Çankırı,Orta,İç Anadolu,40.4664,33.61,896,463,ZB,Very Low,Medium,1.28
+230,Çankırı,Şabanözü,İç Anadolu,40.5221,33.6639,807,418,ZB,Very Low,Medium,1.35
+231,Çankırı,Yapraklı,İç Anadolu,40.5397,33.7354,638,466,ZB,Very Low,Medium,1.28
+232,Çorum,Alaca,Karadeniz,40.55,35.026,606,432,ZB,Very Low,Medium,1.33
+233,Çorum,Bayat,Karadeniz,40.6415,35.188,896,423,ZB,Very Low,Medium,1.34
+234,Çorum,Boğazkale,Karadeniz,40.7799,35.18,925,459,ZB,Very Low,Medium,1.29
+235,Çorum,Dodurga,Karadeniz,40.7294,35.0091,695,419,ZB,Very Low,Medium,1.35
+236,Çorum,İskilip,Karadeniz,40.7933,34.8934,986,436,ZB,Very Low,Medium,1.32
+237,Çorum,Kargı,Karadeniz,40.6631,34.8517,920,446,ZB,Very Low,Medium,1.31
+238,Çorum,Laçin,Karadeniz,40.6729,34.6538,636,448,ZB,Very Low,Medium,1.3
+239,Çorum,Mecitözü,Karadeniz,40.55,34.8588,918,414,ZB,Very Low,Medium,1.35
+240,Çorum,Merkez,Karadeniz,40.4774,34.779,744,422,ZB,Very Low,Medium,1.34
+241,Çorum,Oğuzlar,Karadeniz,40.4679,34.8814,887,428,ZB,Very Low,Medium,1.33
+242,Çorum,Ortaköy,Karadeniz,40.3645,34.9092,743,441,ZB,Very Low,Medium,1.31
+243,Çorum,Osmancık,Karadeniz,40.2945,35.03,976,427,ZB,Very Low,Medium,1.33
+244,Çorum,Sungurlu,Karadeniz,40.3425,35.1586,627,410,ZB,Very Low,Medium,1.36
+245,Çorum,Uğurludağ,Karadeniz,40.496,35.0945,910,445,ZB,Very Low,Medium,1.31
+246,Denizli,Acıpayam,Ege,37.78,29.4037,312,259,ZC,Low,High,1.71
+247,Denizli,Babadağ,Ege,37.8718,29.4108,281,298,ZC,Low,High,1.6
+248,Denizli,Baklan,Ege,37.8969,29.2703,408,282,ZC,Low,High,1.64
+249,Denizli,Bekilli,Ege,37.8953,29.1804,426,286,ZC,Low,High,1.63
+250,Denizli,Beyağaç,Ege,38.0169,29.162,520,298,ZC,Low,High,1.6
+251,Denizli,Bozkurt,Ege,38.0601,29.0621,499,298,ZC,Low,High,1.6
+252,Denizli,Buldan,Ege,38.0413,28.9525,309,301,ZC,Low,High,1.59
+253,Denizli,Çal,Ege,37.9971,28.8502,421,308,ZC,Low,High,1.57
+254,Denizli,Çameli,Ege,37.9164,28.7877,480,296,ZC,Low,High,1.6
+255,Denizli,Çardak,Ege,37.8273,28.75,461,296,ZC,Low,High,1.6
+256,Denizli,Çivril,Ege,37.7648,28.9807,314,313,ZC,Low,High,1.56
+257,Denizli,Güney,Ege,37.7048,28.9233,544,308,ZC,Low,High,1.57
+258,Denizli,Honaz,Ege,37.6207,28.9141,353,288,ZC,Low,High,1.62
+259,Denizli,Kale,Ege,37.6286,29.0103,258,312,ZC,Low,High,1.56
+260,Denizli,Merkezefendi,Ege,37.7123,29.0833,164,250,ZC,Medium,High,1.74
+261,Denizli,Pamukkale,Ege,37.5692,29.1541,378,281,ZC,Low,High,1.64
+262,Denizli,Sarayköy,Ege,37.5463,29.2732,359,277,ZC,Low,High,1.66
+263,Denizli,Serinhisar,Ege,37.622,29.3336,277,290,ZC,Low,High,1.62
+264,Denizli,Tavas,Ege,37.7223,29.2917,328,274,ZC,Low,High,1.67
+265,Diyarbakır,Bağlar,Güneydoğu Anadolu,37.91,40.3023,530,399,ZB,Very Low,High,1.38
+266,Diyarbakır,Bismil,Güneydoğu Anadolu,37.9469,40.3443,783,391,ZB,Very Low,High,1.39
+267,Diyarbakır,Çermik,Güneydoğu Anadolu,38.0493,40.4134,657,420,ZB,Very Low,High,1.35
+268,Diyarbakır,Çınar,Güneydoğu Anadolu,38.0647,40.3224,614,423,ZB,Very Low,High,1.34
+269,Diyarbakır,Çüngüş,Güneydoğu Anadolu,37.9752,40.2372,857,394,ZB,Very Low,High,1.39
+270,Diyarbakır,Dicle,Güneydoğu Anadolu,38.1246,40.1567,509,376,ZB,Very Low,High,1.42
+271,Diyarbakır,Eğil,Güneydoğu Anadolu,38.1039,40.0543,838,401,ZB,Very Low,High,1.38
+272,Diyarbakır,Ergani,Güneydoğu Anadolu,37.9523,40.148,719,411,ZB,Very Low,High,1.36
+273,Diyarbakır,Hani,Güneydoğu Anadolu,37.9644,39.8806,716,394,ZB,Very Low,High,1.39
+274,Diyarbakır,Hazro,Güneydoğu Anadolu,37.8832,40.0578,591,370,ZB,Very Low,High,1.43
+275,Diyarbakır,Kayapınar,Güneydoğu Anadolu,37.7665,39.9519,820,426,ZB,Very Low,High,1.34
+276,Diyarbakır,Kocaköy,Güneydoğu Anadolu,37.8312,40.1586,639,380,ZB,Very Low,High,1.41
+277,Diyarbakır,Kulp,Güneydoğu Anadolu,37.8265,40.2015,828,389,ZB,Very Low,High,1.4
+278,Diyarbakır,Lice,Güneydoğu Anadolu,37.8029,40.2419,637,397,ZB,Very Low,High,1.38
+279,Diyarbakır,Silvan,Güneydoğu Anadolu,37.7743,40.3111,526,418,ZB,Very Low,High,1.35
+280,Diyarbakır,Sur,Güneydoğu Anadolu,37.7627,40.4239,770,393,ZB,Very Low,High,1.39
+281,Diyarbakır,Yenişehir,Güneydoğu Anadolu,37.8776,40.3303,593,390,ZB,Very Low,High,1.4
+282,Edirne,Enez,Marmara,41.68,26.7034,219,262,ZC,Low,Medium,1.7
+283,Edirne,Havsa,Marmara,41.8437,26.7941,0,179,ZD,High,Medium,2.06
+284,Edirne,İpsala,Marmara,41.7351,26.5717,0,172,ZD,High,Medium,2.1
+285,Edirne,Keşan,Marmara,41.7906,26.4834,3,218,ZC,Medium,Medium,1.87
+286,Edirne,Lalapaşa,Marmara,41.7027,26.485,177,239,ZC,Medium,Medium,1.78
+287,Edirne,Meriç,Marmara,41.6134,26.3403,141,217,ZC,Medium,Medium,1.87
+288,Edirne,Merkez,Marmara,41.5114,26.4432,4,181,ZC,Medium,Medium,2.05
+289,Edirne,Süloğlu,Marmara,41.4159,26.6159,17,176,ZD,High,Medium,2.08
+290,Edirne,Uzunköprü,Marmara,41.4947,26.8249,0,210,ZC,Medium,Medium,1.9
+291,Elazığ,Ağın,Doğu Anadolu,38.68,39.5786,914,481,ZB,Very Low,Very High,1.26
+292,Elazığ,Alacakaya,Doğu Anadolu,38.7503,39.3612,1039,520,ZB,Very Low,Very High,1.21
+293,Elazığ,Arıcak,Doğu Anadolu,38.8821,39.3407,944,532,ZB,Very Low,Very High,1.2
+294,Elazığ,Baskil,Doğu Anadolu,38.9289,39.1871,1144,523,ZB,Very Low,Very High,1.21
+295,Elazığ,Karakoçan,Doğu Anadolu,38.8747,39.0275,1091,561,ZB,Very Low,Very High,1.16
+296,Elazığ,Keban,Doğu Anadolu,38.7294,39.028,1207,545,ZB,Very Low,Very High,1.18
+297,Elazığ,Kovancılar,Doğu Anadolu,38.6416,39.0731,1001,558,ZB,Very Low,Very High,1.17
+298,Elazığ,Maden,Doğu Anadolu,38.6216,39.1693,1023,526,ZB,Very Low,Very High,1.2
+299,Elazığ,Merkez,Doğu Anadolu,38.5306,39.2042,1085,520,ZB,Very Low,Very High,1.21
+300,Elazığ,Palu,Doğu Anadolu,38.4371,39.3631,1076,543,ZB,Very Low,Very High,1.18
+301,Elazığ,Sivrice,Doğu Anadolu,38.5253,39.5188,1240,510,ZB,Very Low,Very High,1.22
+302,Erzincan,Çayırlı,Doğu Anadolu,39.75,39.6816,1335,475,ZB,Very Low,Very High,1.26
+303,Erzincan,İliç,Doğu Anadolu,39.8859,39.6943,1044,458,ZB,Very Low,Very High,1.29
+304,Erzincan,Kemah,Doğu Anadolu,39.9374,39.5397,1272,450,ZB,Very Low,Very High,1.3
+305,Erzincan,Kemaliye,Doğu Anadolu,39.9001,39.396,1196,495,ZB,Very Low,Very High,1.24
+306,Erzincan,Merkez,Doğu Anadolu,39.823,39.2593,1209,473,ZB,Very Low,Very High,1.27
+307,Erzincan,Otlukbeli,Doğu Anadolu,39.6972,39.3259,1358,489,ZB,Very Low,Very High,1.25
+308,Erzincan,Refahiye,Doğu Anadolu,39.5672,39.3733,1025,471,ZB,Very Low,Very High,1.27
+309,Erzincan,Tercan,Doğu Anadolu,39.647,39.5218,1248,460,ZB,Very Low,Very High,1.29
+310,Erzincan,Üzümlü,Doğu Anadolu,39.5961,39.7201,1109,469,ZB,Very Low,Very High,1.27
+311,Erzurum,Aşkale,Doğu Anadolu,39.9,41.531,1885,569,ZB,Very Low,High,1.16
+312,Erzurum,Aziziye,Doğu Anadolu,39.9573,41.4817,1713,559,ZB,Very Low,High,1.17
+313,Erzurum,Çat,Doğu Anadolu,40.0748,41.5587,1701,582,ZB,Very Low,High,1.14
+314,Erzurum,Hınıs,Doğu Anadolu,39.9832,41.3425,1701,585,ZB,Very Low,High,1.14
+315,Erzurum,Horasan,Doğu Anadolu,40.14,41.3636,2054,575,ZB,Very Low,High,1.15
+316,Erzurum,İspir,Doğu Anadolu,39.9799,41.27,2010,563,ZB,Very Low,High,1.16
+317,Erzurum,Karaçoban,Doğu Anadolu,40.1761,41.1623,1940,550,ZB,Very Low,High,1.18
+318,Erzurum,Karayazı,Doğu Anadolu,40.034,41.1532,1767,588,ZB,Very Low,High,1.14
+319,Erzurum,Köprüköy,Doğu Anadolu,39.9597,41.1714,1982,571,ZB,Very Low,High,1.15
+320,Erzurum,Narman,Doğu Anadolu,39.9684,41.0172,1962,542,ZB,Very Low,High,1.18
+321,Erzurum,Oltu,Doğu Anadolu,39.9,41.1249,1719,571,ZB,Very Low,High,1.15
+322,Erzurum,Olur,Doğu Anadolu,39.8251,40.9935,1766,561,ZB,Very Low,High,1.16
+323,Erzurum,Palandöken,Doğu Anadolu,39.7433,41.0112,1877,578,ZB,Very Low,High,1.15
+324,Erzurum,Pasinler,Doğu Anadolu,39.7684,41.1553,1846,592,ZB,Very Low,High,1.13
+325,Erzurum,Pazaryolu,Doğu Anadolu,39.6689,41.1799,1878,549,ZB,Very Low,High,1.18
+326,Erzurum,Şenkaya,Doğu Anadolu,39.7937,41.27,1846,552,ZB,Very Low,High,1.17
+327,Erzurum,Tekman,Doğu Anadolu,39.6719,41.3589,2014,592,ZB,Very Low,High,1.13
+328,Erzurum,Tortum,Doğu Anadolu,39.7442,41.4058,1777,590,ZB,Very Low,High,1.13
+329,Erzurum,Uzundere,Doğu Anadolu,39.7968,41.4404,2086,558,ZB,Very Low,High,1.17
+330,Erzurum,Yakutiye,Doğu Anadolu,39.8485,41.4602,1914,540,ZB,Very Low,High,1.19
+331,Eskişehir,Alpu,İç Anadolu,39.78,30.6152,745,470,ZB,Very Low,Medium,1.27
+332,Eskişehir,Beylikova,İç Anadolu,39.8127,30.6015,639,458,ZB,Very Low,Medium,1.29
+333,Eskişehir,Çifteler,İç Anadolu,40.0047,30.7351,860,431,ZB,Very Low,Medium,1.33
+334,Eskişehir,Günyüzü,İç Anadolu,40.0611,30.597,722,436,ZB,Very Low,Medium,1.32
+335,Eskişehir,Han,İç Anadolu,40.0671,30.4414,841,435,ZB,Very Low,Medium,1.32
+336,Eskişehir,İnönü,İç Anadolu,40.0129,30.2971,620,425,ZB,Very Low,Medium,1.34
+337,Eskişehir,Mahmudiye,İç Anadolu,39.9098,30.1966,852,420,ZB,Very Low,Medium,1.35
+338,Eskişehir,Mihalgazi,İç Anadolu,39.78,30.2653,671,474,ZB,Very Low,Medium,1.27
+339,Eskişehir,Mihalıççık,İç Anadolu,39.6641,30.2313,710,425,ZB,Very Low,Medium,1.34
+340,Eskişehir,Odunpazarı,İç Anadolu,39.6698,30.4145,724,443,ZB,Very Low,Medium,1.31
+341,Eskişehir,Sarıcakaya,İç Anadolu,39.5969,30.4699,707,455,ZB,Very Low,Medium,1.29
+342,Eskişehir,Seyitgazi,İç Anadolu,39.5851,30.5734,611,477,ZB,Very Low,Medium,1.26
+343,Eskişehir,Sivrihisar,İç Anadolu,39.5703,30.7207,911,467,ZB,Very Low,Medium,1.28
+344,Eskişehir,Tepebaşı,İç Anadolu,39.7251,30.6568,709,466,ZB,Very Low,Medium,1.28
+345,Gaziantep,Araban,Güneydoğu Anadolu,37.07,37.4802,666,384,ZB,Very Low,Very High,1.41
+346,Gaziantep,İslahiye,Güneydoğu Anadolu,37.2376,37.6197,918,427,ZB,Very Low,Very High,1.33
+347,Gaziantep,Karkamış,Güneydoğu Anadolu,37.1723,37.4016,819,368,ZB,Very Low,Very High,1.44
+348,Gaziantep,Nizip,Güneydoğu Anadolu,37.2889,37.2283,725,376,ZB,Very Low,Very High,1.42
+349,Gaziantep,Nurdağı,Güneydoğu Anadolu,37.1687,37.0547,831,423,ZB,Very Low,Very High,1.34
+350,Gaziantep,Oğuzeli,Güneydoğu Anadolu,37.001,37.1524,765,390,ZB,Very Low,Very High,1.4
+351,Gaziantep,Şahinbey,Güneydoğu Anadolu,37.0249,37.3488,708,402,ZB,Very Low,Very High,1.37
+352,Gaziantep,Şehitkamil,Güneydoğu Anadolu,36.9504,37.4053,708,422,ZB,Very Low,Very High,1.34
+353,Gaziantep,Yavuzeli,Güneydoğu Anadolu,36.991,37.493,767,426,ZB,Very Low,Very High,1.34
+354,Giresun,Alucra,Karadeniz,40.91,38.6989,0,360,ZC,Medium,Medium,1.45
+355,Giresun,Bulancak,Karadeniz,40.9724,38.5708,64,354,ZC,Medium,Medium,1.47
+356,Giresun,Çamoluk,Karadeniz,41.018,38.5196,89,376,ZB,Low,Medium,1.42
+357,Giresun,Çanakçı,Karadeniz,41.1034,38.4861,0,379,ZB,Low,Medium,1.42
+358,Giresun,Dereli,Karadeniz,41.0718,38.39,11,379,ZB,Low,Medium,1.42
+359,Giresun,Doğankent,Karadeniz,40.9741,38.3581,40,369,ZB,Low,Medium,1.44
+360,Giresun,Espiye,Karadeniz,41.0347,38.2403,0,324,ZC,Medium,Medium,1.53
+361,Giresun,Eynesil,Karadeniz,40.9344,38.3193,63,392,ZB,Low,Medium,1.39
+362,Giresun,Görele,Karadeniz,40.91,38.2395,0,344,ZC,Medium,Medium,1.49
+363,Giresun,Güce,Karadeniz,40.7956,38.0586,208,428,ZB,Very Low,Medium,1.33
+364,Giresun,Keşap,Karadeniz,40.8321,38.2965,0,343,ZC,Medium,Medium,1.49
+365,Giresun,Merkez,Karadeniz,40.7003,38.2858,0,374,ZB,Low,Medium,1.43
+366,Giresun,Piraziz,Karadeniz,40.7436,38.39,171,410,ZB,Low,Medium,1.36
+367,Giresun,Şebinkarahisar,Karadeniz,40.8218,38.4339,49,349,ZC,Medium,Medium,1.48
+368,Giresun,Tirebolu,Karadeniz,40.7968,38.5258,191,389,ZB,Low,Medium,1.4
+369,Giresun,Yağlıdere,Karadeniz,40.8055,38.6926,80,397,ZB,Low,Medium,1.38
+370,Gümüşhane,Kelkit,Karadeniz,40.44,39.8235,1185,449,ZB,Very Low,Medium,1.3
+371,Gümüşhane,Köse,Karadeniz,40.5032,39.5538,1034,490,ZB,Very Low,Medium,1.25
+372,Gümüşhane,Kürtün,Karadeniz,40.4995,39.4688,1208,462,ZB,Very Low,Medium,1.28
+373,Gümüşhane,Merkez,Karadeniz,40.44,39.2015,1223,441,ZB,Very Low,Medium,1.31
+374,Gümüşhane,Şiran,Karadeniz,40.3216,39.428,1112,463,ZB,Very Low,Medium,1.28
+375,Gümüşhane,Torul,Karadeniz,40.1909,39.6826,1205,481,ZB,Very Low,Medium,1.26
+376,Hakkari,Çukurca,Doğu Anadolu,37.58,43.9955,1652,584,ZB,Very Low,Medium,1.14
+377,Hakkari,Derecik,Doğu Anadolu,37.852,43.836,1543,577,ZB,Very Low,Medium,1.15
+378,Hakkari,Merkez,Doğu Anadolu,37.6095,43.6812,1772,545,ZB,Very Low,Medium,1.18
+379,Hakkari,Şemdinli,Doğu Anadolu,37.4305,43.483,1768,579,ZB,Very Low,Medium,1.15
+380,Hakkari,Yüksekova,Doğu Anadolu,37.458,43.7776,1922,598,ZB,Very Low,Medium,1.13
+381,Hatay,Altınözü,Akdeniz,36.4,36.4274,0,151,ZD,High,Very High,2.24
+382,Hatay,Antakya,Akdeniz,36.4221,36.4095,275,195,ZC,Low,Very High,1.97
+383,Hatay,Arsuz,Akdeniz,36.5564,36.519,223,193,ZC,Low,Very High,1.98
+384,Hatay,Belen,Akdeniz,36.4652,36.3754,110,199,ZC,Medium,Very High,1.95
+385,Hatay,Defne,Akdeniz,36.4882,36.3389,0,185,ZC,Medium,Very High,2.03
+386,Hatay,Dörtyol,Akdeniz,36.6153,36.2008,97,224,ZC,Medium,Very High,1.84
+387,Hatay,Erzin,Akdeniz,36.4715,36.2319,247,198,ZC,Low,Very High,1.96
+388,Hatay,Hassa,Akdeniz,36.4609,36.0061,54,208,ZC,Medium,Very High,1.91
+389,Hatay,İskenderun,Akdeniz,36.3548,36.0949,0,160,ZD,High,Very High,2.18
+390,Hatay,Kırıkhan,Akdeniz,36.3072,36.1967,177,194,ZC,Medium,Very High,1.98
+391,Hatay,Kumlu,Akdeniz,36.2964,36.2782,242,234,ZC,Low,Very High,1.8
+392,Hatay,Payas,Akdeniz,36.3294,36.3411,0,151,ZD,High,Very High,2.24
+393,Hatay,Reyhanlı,Akdeniz,36.1798,36.4358,63,210,ZC,Medium,Very High,1.9
+394,Hatay,Samandağ,Akdeniz,36.3503,36.4037,123,176,ZD,High,Very High,2.08
+395,Hatay,Yayladağı,Akdeniz,36.3717,36.4263,252,235,ZC,Low,Very High,1.8
+396,Isparta,Aksu,Akdeniz,37.76,30.6317,993,364,ZB,Very Low,Medium,1.44
+397,Isparta,Atabey,Akdeniz,37.8813,30.8373,872,348,ZC,Low,Medium,1.48
+398,Isparta,Eğirdir,Akdeniz,37.9195,30.6921,975,337,ZC,Low,Medium,1.5
+399,Isparta,Gelendost,Akdeniz,37.9693,30.5905,927,327,ZC,Low,Medium,1.52
+400,Isparta,Gönen,Akdeniz,37.9125,30.4906,1197,365,ZB,Very Low,Medium,1.44
+401,Isparta,Keçiborlu,Akdeniz,37.8426,30.4481,1217,357,ZC,Low,Medium,1.46
+402,Isparta,Merkez,Akdeniz,37.7868,30.4296,1238,356,ZC,Low,Medium,1.46
+403,Isparta,Senirkent,Akdeniz,37.6913,30.2255,1027,405,ZB,Very Low,Medium,1.37
+404,Isparta,Sütçüler,Akdeniz,37.6566,30.42,1080,392,ZB,Very Low,Medium,1.39
+405,Isparta,Şarkikaraağaç,Akdeniz,37.6329,30.5022,958,355,ZC,Low,Medium,1.46
+406,Isparta,Uluborlu,Akdeniz,37.5087,30.5966,1092,380,ZB,Very Low,Medium,1.41
+407,Isparta,Yalvaç,Akdeniz,37.5583,30.7271,1165,379,ZB,Very Low,Medium,1.42
+408,Isparta,Yenişarbademli,Akdeniz,37.6526,30.8056,883,377,ZB,Very Low,Medium,1.42
+409,Mersin,Akdeniz,Akdeniz,36.8,34.8497,170,272,ZC,Medium,High,1.67
+410,Mersin,Anamur,Akdeniz,36.9322,34.9323,0,248,ZC,Medium,High,1.75
+411,Mersin,Aydıncık,Akdeniz,36.8768,34.6936,0,237,ZC,Medium,High,1.79
+412,Mersin,Bozyazı,Akdeniz,36.8689,34.64,203,277,ZC,Low,High,1.66
+413,Mersin,Çamlıyayla,Akdeniz,36.8889,34.5895,0,196,ZC,Medium,High,1.97
+414,Mersin,Erdemli,Akdeniz,36.8486,34.5642,35,207,ZC,Medium,High,1.92
+415,Mersin,Gülnar,Akdeniz,36.8658,34.3096,136,238,ZC,Medium,High,1.79
+416,Mersin,Mezitli,Akdeniz,36.7647,34.4583,69,239,ZC,Medium,High,1.78
+417,Mersin,Mut,Akdeniz,36.6618,34.4428,0,201,ZC,Medium,High,1.94
+418,Mersin,Silifke,Akdeniz,36.7305,34.5984,0,199,ZC,Medium,High,1.95
+419,Mersin,Tarsus,Akdeniz,36.6096,34.6577,0,246,ZC,Medium,High,1.76
+420,Mersin,Toroslar,Akdeniz,36.6597,34.7462,0,196,ZC,Medium,High,1.97
+421,Mersin,Yenişehir,Akdeniz,36.7479,34.7491,150,273,ZC,Medium,High,1.67
+422,İstanbul,Adalar,Marmara,41.01,29.1114,42,150,ZE,Very High,Very High,2.25
+423,İstanbul,Arnavutköy,Marmara,41.03,29.1274,78,178,ZD,High,Very High,2.07
+424,İstanbul,Ataşehir,Marmara,41.0274,29.0426,0,150,ZE,Very High,Very High,2.25
+425,İstanbul,Avcılar,Marmara,41.1222,29.2366,237,155,ZD,Medium,Very High,2.21
+426,İstanbul,Bağcılar,Marmara,41.1143,29.1466,10,166,ZD,High,Very High,2.14
+427,İstanbul,Bahçelievler,Marmara,41.0588,29.0363,130,150,ZE,Very High,Very High,2.25
+428,İstanbul,Bakırköy,Marmara,41.1151,29.067,236,185,ZC,Low,Very High,2.03
+429,İstanbul,Başakşehir,Marmara,41.1634,29.0674,159,150,ZE,Very High,Very High,2.25
+430,İstanbul,Bayrampaşa,Marmara,41.2888,29.0769,53,169,ZD,High,Very High,2.12
+431,İstanbul,Beşiktaş,Marmara,41.1405,28.999,85,177,ZD,High,Very High,2.07
+432,İstanbul,Beykoz,Marmara,41.1363,28.9739,0,150,ZE,Very High,Very High,2.25
+433,İstanbul,Beylikdüzü,Marmara,41.0652,28.9665,0,151,ZD,High,Very High,2.24
+434,İstanbul,Beyoğlu,Marmara,41.2731,28.8603,113,172,ZD,High,Very High,2.1
+435,İstanbul,Büyükçekmece,Marmara,41.1164,28.9063,57,150,ZE,Very High,Very High,2.25
+436,İstanbul,Çatalca,Marmara,41.1122,28.8799,58,150,ZE,Very High,Very High,2.25
+437,İstanbul,Çekmeköy,Marmara,41.1816,28.7476,0,150,ZE,Very High,Very High,2.25
+438,İstanbul,Esenler,Marmara,41.0864,28.8349,68,150,ZE,Very High,Very High,2.25
+439,İstanbul,Esenyurt,Marmara,41.0915,28.7503,0,150,ZE,Very High,Very High,2.25
+440,İstanbul,Eyüpsultan,Marmara,41.0477,28.7966,214,161,ZD,Medium,Very High,2.17
+441,İstanbul,Fatih,Marmara,41.0172,28.8733,0,150,ZE,Very High,Very High,2.25
+442,İstanbul,Gaziosmanpaşa,Marmara,41.0042,28.8938,194,166,ZD,High,Very High,2.14
+443,İstanbul,Güngören,Marmara,40.9616,28.7443,0,168,ZD,High,Very High,2.13
+444,İstanbul,Kadıköy,Marmara,40.9846,28.9084,227,190,ZC,Low,Very High,2.0
+445,İstanbul,Kağıthane,Marmara,40.9192,28.8077,0,160,ZD,High,Very High,2.18
+446,İstanbul,Kartal,Marmara,40.8698,28.7901,0,150,ZE,Very High,Very High,2.25
+447,İstanbul,Küçükçekmece,Marmara,40.8831,28.8556,193,150,ZE,Very High,Very High,2.25
+448,İstanbul,Maltepe,Marmara,40.8436,28.8647,92,150,ZE,Very High,Very High,2.25
+449,İstanbul,Pendik,Marmara,40.8851,28.9232,27,150,ZE,Very High,Very High,2.25
+450,İstanbul,Sancaktepe,Marmara,40.9286,28.9601,0,157,ZD,High,Very High,2.2
+451,İstanbul,Sarıyer,Marmara,40.7114,28.9656,0,150,ZE,Very High,Very High,2.25
+452,İstanbul,Silivri,Marmara,40.8435,29.0043,234,190,ZC,Low,Very High,2.0
+453,İstanbul,Sultanbeyli,Marmara,40.8096,29.0496,154,162,ZD,High,Very High,2.17
+454,İstanbul,Sultangazi,Marmara,40.8674,29.0612,27,150,ZE,Very High,Very High,2.25
+455,İstanbul,Şile,Marmara,40.8603,29.104,117,150,ZE,Very High,Very High,2.25
+456,İstanbul,Şişli,Marmara,40.9249,29.0781,0,163,ZD,High,Very High,2.16
+457,İstanbul,Tuzla,Marmara,40.9703,29.0434,194,150,ZE,Very High,Very High,2.25
+458,İstanbul,Ümraniye,Marmara,40.9843,29.0388,0,150,ZE,Very High,Very High,2.25
+459,İstanbul,Üsküdar,Marmara,40.9625,29.1509,50,154,ZD,High,Very High,2.22
+460,İstanbul,Zeytinburnu,Marmara,40.972,29.2609,42,150,ZE,Very High,Very High,2.25
+461,İzmir,Aliağa,Ege,38.42,27.4561,118,160,ZD,High,High,2.18
+462,İzmir,Balçova,Ege,38.431,27.1923,21,155,ZD,High,High,2.21
+463,İzmir,Bayındır,Ege,38.5276,27.4201,0,150,ZE,Very High,High,2.25
+464,İzmir,Bayraklı,Ege,38.5179,27.2916,48,167,ZD,High,High,2.13
+465,İzmir,Bergama,Ege,38.5165,27.2343,0,150,ZE,Very High,High,2.25
+466,İzmir,Beydağ,Ege,38.558,27.2256,159,184,ZC,Medium,High,2.03
+467,İzmir,Bornova,Ege,38.6351,27.2139,191,155,ZD,High,High,2.21
+468,İzmir,Buca,Ege,38.5965,27.1523,9,151,ZD,High,High,2.24
+469,İzmir,Çeşme,Ege,38.5989,27.1074,124,186,ZC,Medium,High,2.02
+470,İzmir,Çiğli,Ege,38.5569,27.0766,173,150,ZE,Very High,High,2.25
+471,İzmir,Dikili,Ege,38.4901,27.0814,170,153,ZD,High,High,2.23
+472,İzmir,Foça,Ege,38.483,27.062,0,150,ZE,Very High,High,2.25
+473,İzmir,Gaziemir,Ege,38.5805,26.8648,59,191,ZC,Medium,High,1.99
+474,İzmir,Güzelbahçe,Ege,38.5167,26.8694,0,161,ZD,High,High,2.17
+475,İzmir,Karabağlar,Ege,38.4612,26.8973,86,177,ZD,High,High,2.07
+476,İzmir,Karaburun,Ege,38.42,26.8581,108,189,ZC,Medium,High,2.01
+477,İzmir,Karşıyaka,Ege,38.4063,27.0527,119,190,ZC,Medium,High,2.0
+478,İzmir,Kemalpaşa,Ege,38.3563,26.9582,0,150,ZE,Very High,High,2.25
+479,İzmir,Kınık,Ege,38.2738,26.8885,57,177,ZD,High,High,2.07
+480,İzmir,Kiraz,Ege,38.3778,27.0844,0,150,ZE,Very High,High,2.25
+481,İzmir,Konak,Ege,38.2029,26.9796,35,163,ZD,High,High,2.16
+482,İzmir,Menderes,Ege,38.3585,27.106,0,150,ZE,Very High,High,2.25
+483,İzmir,Menemen,Ege,38.2294,27.106,0,163,ZD,High,High,2.16
+484,İzmir,Narlıdere,Ege,38.3261,27.1418,0,150,ZE,Very High,High,2.25
+485,İzmir,Ödemiş,Ege,38.3211,27.1686,3,150,ZE,Very High,High,2.25
+486,İzmir,Seferihisar,Ege,38.2638,27.2382,217,207,ZC,Low,High,1.92
+487,İzmir,Selçuk,Ege,38.2996,27.26,78,166,ZD,High,High,2.14
+488,İzmir,Tire,Ege,38.284,27.3546,0,150,ZE,Very High,High,2.25
+489,İzmir,Torbalı,Ege,38.3051,27.4397,0,157,ZD,High,High,2.2
+490,İzmir,Urla,Ege,38.3892,27.3041,0,150,ZE,Very High,High,2.25
+491,Kars,Akyaka,Doğu Anadolu,40.62,43.4311,1933,590,ZB,Very Low,High,1.13
+492,Kars,Arpaçay,Doğu Anadolu,40.6855,43.1786,1580,590,ZB,Very Low,High,1.13
+493,Kars,Digor,Doğu Anadolu,40.7332,43.1,1602,590,ZB,Very Low,High,1.13
+494,Kars,Kağızman,Doğu Anadolu,40.7445,42.9506,1836,551,ZB,Very Low,High,1.17
+495,Kars,Merkez,Doğu Anadolu,40.62,42.9159,1721,553,ZB,Very Low,High,1.17
+496,Kars,Sarıkamış,Doğu Anadolu,40.4334,42.8761,1753,579,ZB,Very Low,High,1.15
+497,Kars,Selim,Doğu Anadolu,40.5476,43.1,1676,590,ZB,Very Low,High,1.13
+498,Kars,Susuz,Doğu Anadolu,40.5743,43.1549,1673,572,ZB,Very Low,High,1.15
+499,Kastamonu,Abana,Karadeniz,41.39,33.8664,726,433,ZB,Very Low,Medium,1.32
+500,Kastamonu,Ağlı,Karadeniz,41.4107,33.8563,921,457,ZB,Very Low,Medium,1.29
+501,Kastamonu,Araç,Karadeniz,41.4882,33.9422,662,433,ZB,Very Low,Medium,1.32
+502,Kastamonu,Azdavay,Karadeniz,41.4617,33.8425,695,402,ZB,Very Low,Medium,1.37
+503,Kastamonu,Bozkurt,Karadeniz,41.5583,33.8456,636,440,ZB,Very Low,Medium,1.31
+504,Kastamonu,Cide,Karadeniz,41.6242,33.78,966,408,ZB,Very Low,Medium,1.36
+505,Kastamonu,Çatalzeytin,Karadeniz,41.6136,33.6928,968,430,ZB,Very Low,Medium,1.33
+506,Kastamonu,Daday,Karadeniz,41.6087,33.5893,627,416,ZB,Very Low,Medium,1.35
+507,Kastamonu,Devrekani,Karadeniz,41.4624,33.6604,687,406,ZB,Very Low,Medium,1.37
+508,Kastamonu,Doğanyurt,Karadeniz,41.4666,33.4972,740,433,ZB,Very Low,Medium,1.32
+509,Kastamonu,Hanönü,Karadeniz,41.39,33.6341,953,418,ZB,Very Low,Medium,1.35
+510,Kastamonu,İhsangazi,Karadeniz,41.3575,33.6598,710,450,ZB,Very Low,Medium,1.3
+511,Kastamonu,İnebolu,Karadeniz,41.292,33.6181,692,407,ZB,Very Low,Medium,1.37
+512,Kastamonu,Küre,Karadeniz,41.1761,33.5936,840,450,ZB,Very Low,Medium,1.3
+513,Kastamonu,Merkez,Karadeniz,41.2627,33.7304,723,441,ZB,Very Low,Medium,1.31
+514,Kastamonu,Pınarbaşı,Karadeniz,41.2576,33.78,901,459,ZB,Very Low,Medium,1.29
+515,Kastamonu,Seydiler,Karadeniz,41.2451,33.8365,776,404,ZB,Very Low,Medium,1.37
+516,Kastamonu,Şenpazar,Karadeniz,41.2147,33.9329,830,415,ZB,Very Low,Medium,1.35
+517,Kastamonu,Taşköprü,Karadeniz,41.3131,33.907,608,420,ZB,Very Low,Medium,1.35
+518,Kastamonu,Tosya,Karadeniz,41.3618,33.884,680,423,ZB,Very Low,Medium,1.34
+519,Kayseri,Akkışla,İç Anadolu,38.73,35.8157,878,435,ZB,Very Low,Medium,1.32
+520,Kayseri,Bünyan,İç Anadolu,38.7933,35.6633,1026,491,ZB,Very Low,Medium,1.24
+521,Kayseri,Develi,İç Anadolu,38.7852,35.5462,872,465,ZB,Very Low,Medium,1.28
+522,Kayseri,Felahiye,İç Anadolu,38.9846,35.6066,1217,480,ZB,Very Low,Medium,1.26
+523,Kayseri,Hacılar,İç Anadolu,39.0214,35.48,1072,487,ZB,Very Low,Medium,1.25
+524,Kayseri,İncesu,İç Anadolu,38.9776,35.3569,874,445,ZB,Very Low,Medium,1.31
+525,Kayseri,Kocasinan,İç Anadolu,38.8395,35.3486,864,439,ZB,Very Low,Medium,1.32
+526,Kayseri,Melikgazi,İç Anadolu,38.8004,35.2759,1231,490,ZB,Very Low,Medium,1.25
+527,Kayseri,Özvatan,İç Anadolu,38.73,35.373,1200,457,ZB,Very Low,Medium,1.29
+528,Kayseri,Pınarbaşı,İç Anadolu,38.6788,35.3317,1122,501,ZB,Very Low,Medium,1.23
+529,Kayseri,Sarıoğlan,İç Anadolu,38.5532,35.2679,1247,497,ZB,Very Low,Medium,1.24
+530,Kayseri,Sarız,İç Anadolu,38.487,35.3592,1175,454,ZB,Very Low,Medium,1.29
+531,Kayseri,Talas,İç Anadolu,38.6598,35.48,1142,500,ZB,Very Low,Medium,1.23
+532,Kayseri,Tomarza,İç Anadolu,38.5541,35.5674,1039,470,ZB,Very Low,Medium,1.27
+533,Kayseri,Yahyalı,İç Anadolu,38.6554,35.5695,946,468,ZB,Very Low,Medium,1.27
+534,Kayseri,Yeşilhisar,İç Anadolu,38.7073,35.5456,1219,448,ZB,Very Low,Medium,1.3
+535,Kırklareli,Babaeski,Marmara,41.73,27.2895,261,253,ZC,Low,Medium,1.73
+536,Kırklareli,Demirköy,Marmara,41.9059,27.431,60,248,ZC,Medium,Medium,1.75
+537,Kırklareli,Kofçaz,Marmara,41.9251,27.22,140,240,ZC,Medium,Medium,1.78
+538,Kırklareli,Lüleburgaz,Marmara,41.8718,27.0498,215,275,ZC,Low,Medium,1.66
+539,Kırklareli,Merkez,Marmara,41.73,27.0779,172,218,ZC,Medium,Medium,1.87
+540,Kırklareli,Pehlivanköy,Marmara,41.6204,27.0885,115,224,ZC,Medium,Medium,1.84
+541,Kırklareli,Pınarhisar,Marmara,41.4865,27.22,422,278,ZC,Low,Medium,1.65
+542,Kırklareli,Vize,Marmara,41.6398,27.3282,151,218,ZC,Medium,Medium,1.87
+543,Kırşehir,Akçakent,İç Anadolu,39.14,34.4159,1056,487,ZB,Very Low,Medium,1.25
+544,Kırşehir,Akpınar,İç Anadolu,39.1988,34.2262,836,442,ZB,Very Low,Medium,1.31
+545,Kırşehir,Boztepe,İç Anadolu,39.3948,34.1002,1107,453,ZB,Very Low,Medium,1.3
+546,Kırşehir,Çiçekdağı,İç Anadolu,39.1829,34.063,1187,449,ZB,Very Low,Medium,1.3
+547,Kırşehir,Kaman,İç Anadolu,39.0393,33.9192,918,441,ZB,Very Low,Medium,1.31
+548,Kırşehir,Merkez,İç Anadolu,39.0295,34.1397,941,472,ZB,Very Low,Medium,1.27
+549,Kırşehir,Mucur,İç Anadolu,39.0536,34.2527,927,431,ZB,Very Low,Medium,1.33
+550,Kocaeli,Başiskele,Marmara,40.85,30.1831,0,150,ZE,Very High,Very High,2.25
+551,Kocaeli,Çayırova,Marmara,40.9214,30.0284,49,150,ZE,Very High,Very High,2.25
+552,Kocaeli,Darıca,Marmara,41.0637,30.028,0,150,ZE,Very High,Very High,2.25
+553,Kocaeli,Derince,Marmara,40.9222,29.88,158,150,ZE,Very High,Very High,2.25
+554,Kocaeli,Dilovası,Marmara,40.9162,29.8341,91,156,ZD,High,Very High,2.21
+555,Kocaeli,Gebze,Marmara,40.9201,29.7343,2,161,ZD,High,Very High,2.17
+556,Kocaeli,Gölcük,Marmara,40.85,29.5478,0,150,ZE,Very High,Very High,2.25
+557,Kocaeli,İzmit,Marmara,40.822,29.8219,54,178,ZD,High,Very High,2.07
+558,Kocaeli,Kandıra,Marmara,40.5943,29.7029,0,150,ZE,Very High,Very High,2.25
+559,Kocaeli,Karamürsel,Marmara,40.7484,29.88,55,150,ZE,Very High,Very High,2.25
+560,Kocaeli,Kartepe,Marmara,40.6929,29.9888,0,150,ZE,Very High,Very High,2.25
+561,Kocaeli,Körfez,Marmara,40.7081,30.1749,141,150,ZE,Very High,Very High,2.25
+562,Konya,Ahırlı,İç Anadolu,37.87,32.591,891,468,ZB,Very Low,Medium,1.27
+563,Konya,Akören,İç Anadolu,37.9203,32.7736,846,445,ZB,Very Low,Medium,1.31
+564,Konya,Akşehir,İç Anadolu,37.9649,32.7454,1190,497,ZB,Very Low,Medium,1.24
+565,Konya,Altınekin,İç Anadolu,38.0154,32.7306,1076,496,ZB,Very Low,Medium,1.24
+566,Konya,Beyşehir,İç Anadolu,37.9479,32.5689,900,458,ZB,Very Low,Medium,1.29
+567,Konya,Bozkır,İç Anadolu,38.0292,32.5991,1188,451,ZB,Very Low,Medium,1.3
+568,Konya,Cihanbeyli,İç Anadolu,37.9958,32.5359,1068,486,ZB,Very Low,Medium,1.25
+569,Konya,Çeltik,İç Anadolu,38.1023,32.5227,850,449,ZB,Very Low,Medium,1.3
+570,Konya,Çumra,İç Anadolu,37.958,32.4746,901,430,ZB,Very Low,Medium,1.33
+571,Konya,Derbent,İç Anadolu,38.0313,32.4299,1105,505,ZB,Very Low,Medium,1.23
+572,Konya,Derebucak,İç Anadolu,37.946,32.4352,937,466,ZB,Very Low,Medium,1.28
+573,Konya,Doğanhisar,İç Anadolu,37.9125,32.4405,848,448,ZB,Very Low,Medium,1.3
+574,Konya,Emirgazi,İç Anadolu,37.9332,32.3916,987,420,ZB,Very Low,Medium,1.35
+575,Konya,Ereğli,İç Anadolu,37.9099,32.3937,959,432,ZB,Very Low,Medium,1.33
+576,Konya,Güneysınır,İç Anadolu,37.9004,32.3636,1094,468,ZB,Very Low,Medium,1.27
+577,Konya,Hadim,İç Anadolu,37.8946,32.1897,1139,497,ZB,Very Low,Medium,1.24
+578,Konya,Halkapınar,İç Anadolu,37.8568,32.3238,998,465,ZB,Very Low,Medium,1.28
+579,Konya,Hüyük,İç Anadolu,37.7979,32.2042,832,436,ZB,Very Low,Medium,1.32
+580,Konya,Ilgın,İç Anadolu,37.8419,32.4193,1026,504,ZB,Very Low,Medium,1.23
+581,Konya,Kadınhanı,İç Anadolu,37.691,32.2298,1005,477,ZB,Very Low,Medium,1.26
+582,Konya,Karapınar,İç Anadolu,37.7713,32.3883,870,462,ZB,Very Low,Medium,1.28
+583,Konya,Karatay,İç Anadolu,37.6404,32.3448,849,419,ZB,Very Low,Medium,1.35
+584,Konya,Kulu,İç Anadolu,37.6514,32.4121,1169,461,ZB,Very Low,Medium,1.28
+585,Konya,Meram,İç Anadolu,37.7063,32.47,1078,465,ZB,Very Low,Medium,1.28
+586,Konya,Sarayönü,İç Anadolu,37.7361,32.5046,1148,491,ZB,Very Low,Medium,1.24
+587,Konya,Selçuklu,İç Anadolu,37.6134,32.594,834,465,ZB,Very Low,Medium,1.28
+588,Konya,Seydişehir,İç Anadolu,37.7848,32.5438,1063,462,ZB,Very Low,Medium,1.28
+589,Konya,Taşkent,İç Anadolu,37.7682,32.5961,1040,487,ZB,Very Low,Medium,1.25
+590,Konya,Tuzlukçu,İç Anadolu,37.7496,32.6876,1050,503,ZB,Very Low,Medium,1.23
+591,Konya,Yalıhüyük,İç Anadolu,37.7653,32.7728,1035,506,ZB,Very Low,Medium,1.23
+592,Konya,Yunak,İç Anadolu,37.8338,32.6912,1142,506,ZB,Very Low,Medium,1.23
+593,Kütahya,Altıntaş,Ege,39.42,30.3137,829,297,ZC,Low,Medium,1.6
+594,Kütahya,Aslanapa,Ege,39.529,30.2292,834,300,ZC,Low,Medium,1.59
+595,Kütahya,Çavdarhisar,Ege,39.5606,30.0965,1164,340,ZC,Low,Medium,1.5
+596,Kütahya,Domaniç,Ege,39.7178,30.0234,924,330,ZC,Low,Medium,1.52
+597,Kütahya,Dumlupınar,Ege,39.5798,29.9073,929,302,ZC,Low,Medium,1.59
+598,Kütahya,Emet,Ege,39.4883,29.8875,1040,346,ZC,Low,Medium,1.48
+599,Kütahya,Gediz,Ege,39.4769,29.7028,1010,318,ZC,Low,Medium,1.55
+600,Kütahya,Hisarcık,Ege,39.3536,29.6569,965,296,ZC,Low,Medium,1.6
+601,Kütahya,Merkez,Ege,39.2529,29.7536,938,339,ZC,Low,Medium,1.5
+602,Kütahya,Pazarlar,Ege,39.1953,29.8777,905,341,ZC,Low,Medium,1.49
+603,Kütahya,Şaphane,Ege,39.263,30.0029,928,312,ZC,Low,Medium,1.56
+604,Kütahya,Simav,Ege,39.1905,30.1701,941,325,ZC,Low,Medium,1.53
+605,Kütahya,Tavşanlı,Ege,39.3557,30.1271,907,336,ZC,Low,Medium,1.5
+606,Malatya,Akçadağ,Doğu Anadolu,38.36,38.3741,897,426,ZB,Very Low,Very High,1.34
+607,Malatya,Arapgir,Doğu Anadolu,38.3968,38.3942,1122,505,ZB,Very Low,Very High,1.23
+608,Malatya,Arguvan,Doğu Anadolu,38.5893,38.4999,905,425,ZB,Very Low,Very High,1.34
+609,Malatya,Battalgazi,Doğu Anadolu,38.4144,38.3179,766,449,ZB,Very Low,Very High,1.3
+610,Malatya,Darende,Doğu Anadolu,38.4649,38.2623,848,423,ZB,Very Low,Very High,1.34
+611,Malatya,Doğanşehir,Doğu Anadolu,38.4861,38.1392,778,439,ZB,Very Low,Very High,1.32
+612,Malatya,Doğanyol,Doğu Anadolu,38.4168,38.0335,897,429,ZB,Very Low,Very High,1.33
+613,Malatya,Hekimhan,Doğu Anadolu,38.3047,38.0409,1118,474,ZB,Very Low,Very High,1.27
+614,Malatya,Kale,Doğu Anadolu,38.2556,38.1686,873,447,ZB,Very Low,Very High,1.3
+615,Malatya,Kuluncak,Doğu Anadolu,38.3085,38.2866,942,448,ZB,Very Low,Very High,1.3
+616,Malatya,Pütürge,Doğu Anadolu,38.1072,38.3468,822,479,ZB,Very Low,Very High,1.26
+617,Malatya,Yazıhan,Doğu Anadolu,38.2737,38.3815,938,434,ZB,Very Low,Very High,1.32
+618,Malatya,Yeşilyurt,Doğu Anadolu,38.3217,38.3975,795,476,ZB,Very Low,Very High,1.26
+619,Manisa,Ahmetli,Ege,38.62,27.7337,123,289,ZC,Medium,High,1.62
+620,Manisa,Akhisar,Ege,38.7202,27.7405,34,232,ZC,Medium,High,1.81
+621,Manisa,Alaşehir,Ege,38.7053,27.5423,238,301,ZC,Low,High,1.59
+622,Manisa,Demirci,Ege,38.8335,27.5576,54,260,ZC,Medium,High,1.71
+623,Manisa,Gölmarmara,Ege,38.9044,27.4616,0,219,ZC,Medium,High,1.86
+624,Manisa,Gördes,Ege,38.8947,27.3362,247,283,ZC,Low,High,1.64
+625,Manisa,Kırkağaç,Ege,38.7762,27.2885,178,263,ZC,Medium,High,1.7
+626,Manisa,Köprübaşı,Ege,38.6831,27.3078,55,260,ZC,Medium,High,1.71
+627,Manisa,Kula,Ege,38.6547,27.2075,21,227,ZC,Medium,High,1.83
+628,Manisa,Salihli,Ege,38.5749,27.1402,106,259,ZC,Medium,High,1.71
+629,Manisa,Sarıgöl,Ege,38.4761,27.1511,212,267,ZC,Low,High,1.69
+630,Manisa,Saruhanlı,Ege,38.5024,27.3234,0,257,ZC,Medium,High,1.72
+631,Manisa,Selendi,Ege,38.4675,27.3779,0,225,ZC,Medium,High,1.84
+632,Manisa,Soma,Ege,38.4441,27.4496,233,301,ZC,Low,High,1.59
+633,Manisa,Şehzadeler,Ege,38.4396,27.5378,247,267,ZC,Low,High,1.69
+634,Manisa,Turgutlu,Ege,38.5671,27.4997,159,256,ZC,Medium,High,1.72
+635,Manisa,Yunusemre,Ege,38.5287,27.7128,0,263,ZC,Medium,High,1.7
+636,Kahramanmaraş,Afşin,Akdeniz,37.59,37.2115,500,336,ZC,Low,Very High,1.5
+637,Kahramanmaraş,Andırın,Akdeniz,37.6696,37.0887,592,366,ZB,Very Low,Very High,1.44
+638,Kahramanmaraş,Çağlayancerit,Akdeniz,37.764,37.0354,708,324,ZC,Low,Very High,1.53
+639,Kahramanmaraş,Dulkadiroğlu,Akdeniz,37.6536,36.929,532,374,ZB,Very Low,Very High,1.43
+640,Kahramanmaraş,Ekinözü,Akdeniz,37.6877,36.8384,425,318,ZC,Low,Very High,1.55
+641,Kahramanmaraş,Elbistan,Akdeniz,37.6614,36.6481,471,317,ZC,Low,Very High,1.55
+642,Kahramanmaraş,Göksun,Akdeniz,37.5293,36.692,639,334,ZC,Low,Very High,1.51
+643,Kahramanmaraş,Nurhak,Akdeniz,37.4141,36.7571,356,292,ZC,Low,Very High,1.61
+644,Kahramanmaraş,Onikişubat,Akdeniz,37.3732,36.9026,517,373,ZB,Very Low,Very High,1.43
+645,Kahramanmaraş,Pazarcık,Akdeniz,37.3297,37.0827,365,323,ZC,Low,Very High,1.53
+646,Kahramanmaraş,Türkoğlu,Akdeniz,37.5127,37.0843,651,321,ZC,Low,Very High,1.54
+647,Mardin,Artuklu,Güneydoğu Anadolu,37.32,40.9664,1246,450,ZB,Very Low,High,1.3
+648,Mardin,Dargeçit,Güneydoğu Anadolu,37.3622,40.7897,1097,431,ZB,Very Low,High,1.33
+649,Mardin,Derik,Güneydoğu Anadolu,37.4432,40.768,1185,422,ZB,Very Low,High,1.34
+650,Mardin,Kızıltepe,Güneydoğu Anadolu,37.5084,40.6465,975,382,ZB,Very Low,High,1.41
+651,Mardin,Mazıdağı,Güneydoğu Anadolu,37.4923,40.4354,1106,449,ZB,Very Low,High,1.3
+652,Mardin,Midyat,Güneydoğu Anadolu,37.32,40.6124,1202,438,ZB,Very Low,High,1.32
+653,Mardin,Nusaybin,Güneydoğu Anadolu,37.2528,40.609,1045,420,ZB,Very Low,High,1.35
+654,Mardin,Ömerli,Güneydoğu Anadolu,37.1187,40.6415,1234,398,ZB,Very Low,High,1.38
+655,Mardin,Savur,Güneydoğu Anadolu,37.1834,40.7732,932,377,ZB,Very Low,High,1.42
+656,Mardin,Yeşilli,Güneydoğu Anadolu,37.2063,40.9079,1054,451,ZB,Very Low,High,1.3
+657,Muğla,Bodrum,Ege,37.22,28.4825,744,303,ZC,Low,High,1.58
+658,Muğla,Dalaman,Ege,37.2962,28.5343,842,342,ZC,Low,High,1.49
+659,Muğla,Datça,Ege,37.2662,28.3982,741,291,ZC,Low,High,1.62
+660,Muğla,Fethiye,Ege,37.3138,28.3737,723,314,ZC,Low,High,1.56
+661,Muğla,Kavaklıdere,Ege,37.4252,28.2666,719,341,ZC,Low,High,1.49
+662,Muğla,Köyceğiz,Ege,37.394,28.1244,765,295,ZC,Low,High,1.61
+663,Muğla,Marmaris,Ege,37.2688,28.1223,556,322,ZC,Low,High,1.54
+664,Muğla,Menteşe,Ege,37.175,28.1407,618,285,ZC,Low,High,1.63
+665,Muğla,Milas,Ege,37.0471,28.1258,679,299,ZC,Low,High,1.59
+666,Muğla,Ortaca,Ege,36.9923,28.2564,682,287,ZC,Low,High,1.63
+667,Muğla,Seydikemer,Ege,37.0731,28.3814,659,300,ZC,Low,High,1.59
+668,Muğla,Ula,Ege,37.0691,28.485,769,344,ZC,Low,High,1.49
+669,Muğla,Yatağan,Ege,37.1748,28.4635,615,317,ZC,Low,High,1.55
+670,Muş,Bulanık,Doğu Anadolu,38.95,41.9351,1500,590,ZB,Very Low,Very High,1.13
+671,Muş,Hasköy,Doğu Anadolu,39.049,41.8186,1329,543,ZB,Very Low,Very High,1.18
+672,Muş,Korkut,Doğu Anadolu,39.1869,41.5859,1429,559,ZB,Very Low,Very High,1.17
+673,Muş,Malazgirt,Doğu Anadolu,38.95,41.6658,1175,519,ZB,Very Low,Very High,1.21
+674,Muş,Merkez,Doğu Anadolu,38.8533,41.683,1339,559,ZB,Very Low,Very High,1.17
+675,Muş,Varto,Doğu Anadolu,38.8312,41.8323,1319,526,ZB,Very Low,Very High,1.2
+676,Nevşehir,Acıgöl,İç Anadolu,38.69,34.8065,1332,468,ZB,Very Low,Medium,1.27
+677,Nevşehir,Avanos,İç Anadolu,38.889,34.9288,1280,474,ZB,Very Low,Medium,1.27
+678,Nevşehir,Derinkuyu,İç Anadolu,38.8513,34.69,1105,482,ZB,Very Low,Medium,1.26
+679,Nevşehir,Gülşehir,İç Anadolu,38.7732,34.5902,1237,450,ZB,Very Low,Medium,1.3
+680,Nevşehir,Hacıbektaş,İç Anadolu,38.69,34.3384,1036,494,ZB,Very Low,Medium,1.24
+681,Nevşehir,Kozaklı,İç Anadolu,38.5023,34.4647,1173,478,ZB,Very Low,Medium,1.26
+682,Nevşehir,Merkez,İç Anadolu,38.4687,34.69,1253,463,ZB,Very Low,Medium,1.28
+683,Nevşehir,Ürgüp,İç Anadolu,38.6052,34.7918,1045,497,ZB,Very Low,Medium,1.24
+684,Niğde,Altunhisar,İç Anadolu,37.97,34.9603,1120,506,ZB,Very Low,Medium,1.23
+685,Niğde,Bor,İç Anadolu,38.0372,34.7266,1189,452,ZB,Very Low,Medium,1.3
+686,Niğde,Çamardı,İç Anadolu,38.0239,34.6427,1411,490,ZB,Very Low,Medium,1.25
+687,Niğde,Çiftlik,İç Anadolu,37.97,34.6104,1242,504,ZB,Very Low,Medium,1.23
+688,Niğde,Merkez,İç Anadolu,37.7267,34.5114,1336,473,ZB,Very Low,Medium,1.27
+689,Niğde,Ulukışla,İç Anadolu,37.9196,34.7149,1031,485,ZB,Very Low,Medium,1.25
+690,Ordu,Akkuş,Karadeniz,40.98,38.1723,162,381,ZB,Low,Medium,1.41
+691,Ordu,Altınordu,Karadeniz,41.0614,38.1647,165,390,ZB,Low,Medium,1.4
+692,Ordu,Aybastı,Karadeniz,41.1472,38.1378,0,344,ZC,Medium,Medium,1.49
+693,Ordu,Çamaş,Karadeniz,41.1871,38.0424,47,338,ZC,Medium,Medium,1.5
+694,Ordu,Çatalpınar,Karadeniz,41.0313,37.8956,170,368,ZB,Low,Medium,1.44
+695,Ordu,Çaybaşı,Karadeniz,41.0743,37.8706,0,364,ZB,Low,Medium,1.44
+696,Ordu,Fatsa,Karadeniz,41.0485,37.8439,100,354,ZC,Medium,Medium,1.47
+697,Ordu,Gölköy,Karadeniz,41.0845,37.7646,143,355,ZC,Medium,Medium,1.46
+698,Ordu,Gülyalı,Karadeniz,41.0823,37.6533,0,378,ZB,Low,Medium,1.42
+699,Ordu,Gürgentepe,Karadeniz,41.0023,37.7199,22,327,ZC,Medium,Medium,1.52
+700,Ordu,İkizce,Karadeniz,40.9637,37.7628,0,381,ZB,Low,Medium,1.41
+701,Ordu,Kabadüz,Karadeniz,40.8674,37.6304,145,372,ZB,Low,Medium,1.43
+702,Ordu,Kabataş,Karadeniz,40.8288,37.713,15,357,ZC,Medium,Medium,1.46
+703,Ordu,Korgan,Karadeniz,40.7159,37.741,91,383,ZB,Low,Medium,1.41
+704,Ordu,Kumru,Karadeniz,40.7995,37.8621,0,371,ZB,Low,Medium,1.43
+705,Ordu,Mesudiye,Karadeniz,40.7557,37.9482,0,364,ZB,Low,Medium,1.44
+706,Ordu,Perşembe,Karadeniz,40.9094,37.9354,187,385,ZB,Low,Medium,1.41
+707,Ordu,Ulubey,Karadeniz,40.9416,37.9392,152,409,ZB,Low,Medium,1.36
+708,Ordu,Ünye,Karadeniz,40.9492,37.9877,0,342,ZC,Medium,Medium,1.49
+709,Rize,Ardeşen,Karadeniz,41.02,40.7059,0,335,ZC,Medium,Medium,1.51
+710,Rize,Çamlıhemşin,Karadeniz,41.1091,40.7051,45,355,ZC,Medium,Medium,1.46
+711,Rize,Çayeli,Karadeniz,41.2706,40.6936,0,356,ZC,Medium,Medium,1.46
+712,Rize,Derepazarı,Karadeniz,41.2334,40.52,0,344,ZC,Medium,Medium,1.49
+713,Rize,Fındıklı,Karadeniz,41.1723,40.4145,20,357,ZC,Medium,Medium,1.46
+714,Rize,Güneysu,Karadeniz,41.1271,40.2973,166,409,ZB,Low,Medium,1.36
+715,Rize,Hemşin,Karadeniz,41.02,40.4089,53,363,ZB,Low,Medium,1.45
+716,Rize,İkizdere,Karadeniz,40.8834,40.2361,0,365,ZB,Low,Medium,1.44
+717,Rize,İyidere,Karadeniz,40.7666,40.3445,0,373,ZB,Low,Medium,1.43
+718,Rize,Kalkandere,Karadeniz,40.8845,40.52,0,353,ZC,Medium,Medium,1.47
+719,Rize,Merkez,Karadeniz,40.796,40.6752,0,323,ZC,Medium,Medium,1.53
+720,Rize,Pazar,Karadeniz,40.9317,40.7035,0,358,ZC,Medium,Medium,1.46
+721,Sakarya,Adapazarı,Marmara,40.69,30.7144,16,150,ZE,Very High,Very High,2.25
+722,Sakarya,Akyazı,Marmara,40.7249,30.5411,0,150,ZE,Very High,Very High,2.25
+723,Sakarya,Arifiye,Marmara,40.7691,30.5349,184,175,ZD,High,Very High,2.08
+724,Sakarya,Erenler,Marmara,40.9496,30.5691,0,152,ZD,High,Very High,2.24
+725,Sakarya,Ferizli,Marmara,40.7755,30.44,192,150,ZE,Very High,Very High,2.25
+726,Sakarya,Geyve,Marmara,40.9568,30.3074,0,150,ZE,Very High,Very High,2.25
+727,Sakarya,Hendek,Marmara,40.7657,30.3492,0,150,ZE,Very High,Very High,2.25
+728,Sakarya,Karapürçek,Marmara,40.7432,30.2858,92,150,ZE,Very High,Very High,2.25
+729,Sakarya,Karasu,Marmara,40.69,30.2613,0,174,ZD,High,Very High,2.09
+730,Sakarya,Kaynarca,Marmara,40.629,30.2633,91,150,ZE,Very High,Very High,2.25
+731,Sakarya,Kocaali,Marmara,40.4861,30.1954,0,150,ZE,Very High,Very High,2.25
+732,Sakarya,Pamukova,Marmara,40.5083,30.3497,176,179,ZD,High,Very High,2.06
+733,Sakarya,Sapanca,Marmara,40.4635,30.44,0,178,ZD,High,Very High,2.07
+734,Sakarya,Serdivan,Marmara,40.5602,30.5045,23,150,ZE,Very High,Very High,2.25
+735,Sakarya,Söğütlü,Marmara,40.5855,30.5654,0,168,ZD,High,Very High,2.13
+736,Sakarya,Taraklı,Marmara,40.6237,30.632,200,173,ZD,Medium,Very High,2.1
+737,Samsun,Alaçam,Karadeniz,41.29,36.6871,0,342,ZC,Medium,High,1.49
+738,Samsun,Asarcık,Karadeniz,41.3151,36.4076,131,359,ZC,Medium,High,1.45
+739,Samsun,Atakum,Karadeniz,41.363,36.4261,0,330,ZC,Medium,High,1.52
+740,Samsun,Ayvacık,Karadeniz,41.4493,36.4252,0,356,ZC,Medium,High,1.46
+741,Samsun,Bafra,Karadeniz,41.4425,36.347,68,360,ZC,Medium,High,1.45
+742,Samsun,Canik,Karadeniz,41.4981,36.2589,22,374,ZB,Low,High,1.43
+743,Samsun,Çarşamba,Karadeniz,41.3683,36.2591,82,392,ZB,Low,High,1.39
+744,Samsun,Havza,Karadeniz,41.3372,36.2386,0,338,ZC,Medium,High,1.5
+745,Samsun,İlkadım,Karadeniz,41.3244,36.109,0,331,ZC,Medium,High,1.52
+746,Samsun,Kavak,Karadeniz,41.2767,36.2446,0,327,ZC,Medium,High,1.52
+747,Samsun,Ladik,Karadeniz,41.1507,36.0601,152,404,ZB,Low,High,1.37
+748,Samsun,Ondokuzmayıs,Karadeniz,41.0952,36.1535,0,339,ZC,Medium,High,1.5
+749,Samsun,Salıpazarı,Karadeniz,41.2194,36.3059,0,329,ZC,Medium,High,1.52
+750,Samsun,Tekkeköy,Karadeniz,41.2117,36.3387,0,332,ZC,Medium,High,1.51
+751,Samsun,Terme,Karadeniz,41.1521,36.4124,0,360,ZC,Medium,High,1.45
+752,Samsun,Vezirköprü,Karadeniz,41.1867,36.466,0,377,ZB,Low,High,1.42
+753,Samsun,Yakakent,Karadeniz,41.204,36.5965,0,323,ZC,Medium,High,1.53
+754,Siirt,Baykan,Güneydoğu Anadolu,37.93,42.2663,1021,437,ZB,Very Low,Medium,1.32
+755,Siirt,Eruh,Güneydoğu Anadolu,37.9867,42.0042,844,391,ZB,Very Low,Medium,1.39
+756,Siirt,Kurtalan,Güneydoğu Anadolu,38.1241,41.8968,892,400,ZB,Very Low,Medium,1.38
+757,Siirt,Merkez,Güneydoğu Anadolu,38.0462,41.6604,986,395,ZB,Very Low,Medium,1.39
+758,Siirt,Pervari,Güneydoğu Anadolu,37.8342,41.7114,1001,433,ZB,Very Low,Medium,1.32
+759,Siirt,Şirvan,Güneydoğu Anadolu,37.8261,41.9215,832,397,ZB,Very Low,Medium,1.38
+760,Siirt,Tillo,Güneydoğu Anadolu,37.7466,42.1255,708,405,ZB,Very Low,Medium,1.37
+761,Sinop,Ayancık,Karadeniz,42.02,35.4905,87,358,ZC,Medium,Medium,1.46
+762,Sinop,Boyabat,Karadeniz,42.2066,35.4169,0,330,ZC,Medium,Medium,1.52
+763,Sinop,Dikmen,Karadeniz,42.1845,35.1848,164,364,ZB,Low,Medium,1.44
+764,Sinop,Durağan,Karadeniz,42.1081,35.089,0,324,ZC,Medium,Medium,1.53
+765,Sinop,Erfelek,Karadeniz,42.1051,34.8695,0,348,ZC,Medium,Medium,1.48
+766,Sinop,Gerze,Karadeniz,41.9341,34.8669,114,394,ZB,Low,Medium,1.39
+767,Sinop,Merkez,Karadeniz,41.9409,35.0952,0,353,ZC,Medium,Medium,1.47
+768,Sinop,Saraydüzü,Karadeniz,41.8219,35.1919,0,326,ZC,Medium,Medium,1.53
+769,Sinop,Türkeli,Karadeniz,41.9045,35.3152,22,379,ZB,Low,Medium,1.42
+770,Sivas,Akıncılar,İç Anadolu,39.75,37.1718,1109,490,ZB,Very Low,Medium,1.25
+771,Sivas,Altınyayla,İç Anadolu,39.8047,37.1894,1367,497,ZB,Very Low,Medium,1.24
+772,Sivas,Divriği,İç Anadolu,39.9194,37.2429,1119,470,ZB,Very Low,Medium,1.27
+773,Sivas,Doğanşar,İç Anadolu,39.9832,37.1594,1110,475,ZB,Very Low,Medium,1.26
+774,Sivas,Gemerek,İç Anadolu,39.9836,37.046,1163,456,ZB,Very Low,Medium,1.29
+775,Sivas,Gölova,İç Anadolu,39.7984,37.0035,1469,455,ZB,Very Low,Medium,1.29
+776,Sivas,Gürün,İç Anadolu,39.9481,36.8405,1462,471,ZB,Very Low,Medium,1.27
+777,Sivas,Hafik,İç Anadolu,39.801,36.9212,1188,495,ZB,Very Low,Medium,1.24
+778,Sivas,İmranlı,İç Anadolu,39.7874,36.7802,1442,476,ZB,Very Low,Medium,1.26
+779,Sivas,Kangal,İç Anadolu,39.6991,36.6932,1359,489,ZB,Very Low,Medium,1.25
+780,Sivas,Koyulhisar,İç Anadolu,39.6389,36.8047,1298,473,ZB,Very Low,Medium,1.27
+781,Sivas,Merkez,İç Anadolu,39.6404,36.9207,1361,454,ZB,Very Low,Medium,1.29
+782,Sivas,Suşehri,İç Anadolu,39.5684,36.958,1095,496,ZB,Very Low,Medium,1.24
+783,Sivas,Şarkışla,İç Anadolu,39.4888,37.049,1478,466,ZB,Very Low,Medium,1.28
+784,Sivas,Ulaş,İç Anadolu,39.6143,37.1011,1234,489,ZB,Very Low,Medium,1.25
+785,Sivas,Yıldızeli,İç Anadolu,39.6882,37.1013,1301,476,ZB,Very Low,Medium,1.26
+786,Sivas,Zara,İç Anadolu,39.703,37.1655,1371,471,ZB,Very Low,Medium,1.27
+787,Tekirdağ,Çerkezköy,Marmara,40.98,27.7061,0,216,ZC,Medium,Medium,1.88
+788,Tekirdağ,Çorlu,Marmara,41.0839,27.714,179,220,ZC,Medium,Medium,1.86
+789,Tekirdağ,Ergene,Marmara,41.1863,27.633,0,186,ZC,Medium,Medium,2.02
+790,Tekirdağ,Hayrabolu,Marmara,41.0785,27.503,45,188,ZC,Medium,Medium,2.01
+791,Tekirdağ,Kapaklı,Marmara,41.0977,27.3977,57,252,ZC,Medium,Medium,1.74
+792,Tekirdağ,Malkara,Marmara,40.9951,27.4584,0,222,ZC,Medium,Medium,1.85
+793,Tekirdağ,Marmaraereğlisi,Marmara,40.9087,27.2285,0,231,ZC,Medium,Medium,1.81
+794,Tekirdağ,Muratlı,Marmara,40.7595,27.2907,0,185,ZC,Medium,Medium,2.03
+795,Tekirdağ,Saray,Marmara,40.7771,27.485,97,233,ZC,Medium,Medium,1.81
+796,Tekirdağ,Süleymanpaşa,Marmara,40.8548,27.5886,35,178,ZD,High,Medium,2.07
+797,Tekirdağ,Şarköy,Marmara,40.8599,27.7443,174,225,ZC,Medium,Medium,1.84
+798,Tokat,Almus,Karadeniz,40.32,36.6194,811,458,ZB,Very Low,High,1.29
+799,Tokat,Artova,Karadeniz,40.4271,36.7726,462,426,ZB,Very Low,High,1.34
+800,Tokat,Başçiftlik,Karadeniz,40.3699,36.5846,758,460,ZB,Very Low,High,1.29
+801,Tokat,Erbaa,Karadeniz,40.4048,36.55,697,409,ZB,Very Low,High,1.36
+802,Tokat,Merkez,Karadeniz,40.4624,36.4513,615,435,ZB,Very Low,High,1.32
+803,Tokat,Niksar,Karadeniz,40.4222,36.3377,484,405,ZB,Very Low,High,1.37
+804,Tokat,Pazar,Karadeniz,40.32,36.2149,744,402,ZB,Very Low,High,1.37
+805,Tokat,Reşadiye,Karadeniz,40.2889,36.4854,495,376,ZB,Very Low,High,1.42
+806,Tokat,Sulusaray,Karadeniz,40.111,36.4052,448,372,ZB,Very Low,High,1.43
+807,Tokat,Turhal,Karadeniz,40.1892,36.55,819,421,ZB,Very Low,High,1.34
+808,Tokat,Yeşilyurt,Karadeniz,40.1689,36.6547,668,440,ZB,Very Low,High,1.31
+809,Tokat,Zile,Karadeniz,40.1859,36.8286,724,409,ZB,Very Low,High,1.36
+810,Trabzon,Akçaabat,Karadeniz,41.0,39.957,186,392,ZB,Low,Medium,1.39
+811,Trabzon,Araklı,Karadeniz,41.0854,40.0015,140,381,ZB,Low,Medium,1.41
+812,Trabzon,Arsin,Karadeniz,41.1465,39.9295,206,388,ZB,Very Low,Medium,1.4
+813,Trabzon,Beşikdüzü,Karadeniz,41.2079,39.864,0,355,ZC,Medium,Medium,1.46
+814,Trabzon,Çarşıbaşı,Karadeniz,41.1713,39.7562,0,329,ZC,Medium,Medium,1.52
+815,Trabzon,Çaykara,Karadeniz,41.0562,39.7081,26,378,ZB,Low,Medium,1.42
+816,Trabzon,Dernekpazarı,Karadeniz,41.2511,39.546,0,358,ZC,Medium,Medium,1.46
+817,Trabzon,Düzköy,Karadeniz,41.1632,39.4866,77,374,ZB,Low,Medium,1.43
+818,Trabzon,Hayrat,Karadeniz,41.0392,39.5908,187,383,ZB,Low,Medium,1.41
+819,Trabzon,Köprübaşı,Karadeniz,41.0,39.6429,10,371,ZB,Low,Medium,1.43
+820,Trabzon,Maçka,Karadeniz,40.9596,39.5867,0,341,ZC,Medium,Medium,1.49
+821,Trabzon,Of,Karadeniz,40.9653,39.6704,53,396,ZB,Low,Medium,1.39
+822,Trabzon,Ortahisar,Karadeniz,40.8006,39.5819,108,383,ZB,Low,Medium,1.41
+823,Trabzon,Sürmene,Karadeniz,40.8907,39.6969,30,339,ZC,Medium,Medium,1.5
+824,Trabzon,Şalpazarı,Karadeniz,40.7908,39.7643,135,397,ZB,Low,Medium,1.38
+825,Trabzon,Tonya,Karadeniz,40.8096,39.8519,73,406,ZB,Low,Medium,1.37
+826,Trabzon,Vakfıkebir,Karadeniz,40.9525,39.7879,0,335,ZC,Medium,Medium,1.51
+827,Trabzon,Yomra,Karadeniz,40.9578,39.8591,0,367,ZB,Low,Medium,1.44
+828,Tunceli,Çemişgezek,Doğu Anadolu,39.31,39.6202,1067,534,ZB,Very Low,Medium,1.19
+829,Tunceli,Hozat,Doğu Anadolu,39.5155,39.6866,1145,542,ZB,Very Low,Medium,1.18
+830,Tunceli,Mazgirt,Doğu Anadolu,39.4388,39.44,854,531,ZB,Very Low,Medium,1.2
+831,Tunceli,Merkez,Doğu Anadolu,39.4797,39.2363,868,499,ZB,Very Low,Medium,1.23
+832,Tunceli,Nazımiye,Doğu Anadolu,39.31,39.269,867,484,ZB,Very Low,Medium,1.25
+833,Tunceli,Ovacık,Doğu Anadolu,39.2053,39.3144,1139,534,ZB,Very Low,Medium,1.19
+834,Tunceli,Pertek,Doğu Anadolu,39.1014,39.44,806,480,ZB,Very Low,Medium,1.26
+835,Tunceli,Pülümür,Doğu Anadolu,39.1979,39.5746,871,512,ZB,Very Low,Medium,1.22
+836,Şanlıurfa,Akçakale,Güneydoğu Anadolu,37.16,39.0577,597,378,ZB,Very Low,High,1.42
+837,Şanlıurfa,Birecik,Güneydoğu Anadolu,37.2544,39.0158,430,344,ZC,Low,High,1.49
+838,Şanlıurfa,Bozova,Güneydoğu Anadolu,37.2628,38.8852,411,392,ZB,Very Low,High,1.39
+839,Şanlıurfa,Ceylanpınar,Güneydoğu Anadolu,37.3483,38.8274,538,385,ZB,Very Low,High,1.41
+840,Şanlıurfa,Eyyübiye,Güneydoğu Anadolu,37.4398,38.6727,447,342,ZC,Low,High,1.49
+841,Şanlıurfa,Halfeti,Güneydoğu Anadolu,37.2201,38.7185,354,345,ZC,Low,High,1.48
+842,Şanlıurfa,Haliliye,Güneydoğu Anadolu,37.2049,38.5814,322,389,ZB,Very Low,High,1.4
+843,Şanlıurfa,Harran,Güneydoğu Anadolu,37.1358,38.6824,561,403,ZB,Very Low,High,1.37
+844,Şanlıurfa,Hilvan,Güneydoğu Anadolu,37.0429,38.6414,579,372,ZB,Very Low,High,1.43
+845,Şanlıurfa,Karaköprü,Güneydoğu Anadolu,36.8908,38.6775,631,402,ZB,Very Low,High,1.37
+846,Şanlıurfa,Siverek,Güneydoğu Anadolu,37.0255,38.8196,661,374,ZB,Very Low,High,1.43
+847,Şanlıurfa,Suruç,Güneydoğu Anadolu,36.9655,38.9611,671,412,ZB,Very Low,High,1.36
+848,Şanlıurfa,Viranşehir,Güneydoğu Anadolu,37.0824,38.9774,444,354,ZC,Low,High,1.47
+849,Uşak,Banaz,Ege,38.68,29.6732,920,336,ZC,Low,Medium,1.5
+850,Uşak,Eşme,Ege,38.9219,29.5776,943,301,ZC,Low,Medium,1.59
+851,Uşak,Karahallı,Ege,38.8836,29.2689,963,320,ZC,Low,Medium,1.54
+852,Uşak,Merkez,Ege,38.68,29.2849,812,315,ZC,Low,Medium,1.55
+853,Uşak,Sivaslı,Ege,38.4462,29.248,1027,345,ZC,Low,Medium,1.48
+854,Uşak,Ulubey,Ege,38.5461,29.5028,855,311,ZC,Low,Medium,1.56
+855,Van,Bahçesaray,Doğu Anadolu,38.49,43.6815,1650,464,ZB,Very Low,Very High,1.28
+856,Van,Başkale,Doğu Anadolu,38.6129,43.6911,1926,462,ZB,Very Low,Very High,1.28
+857,Van,Çaldıran,Doğu Anadolu,38.7092,43.5916,1901,493,ZB,Very Low,Very High,1.24
+858,Van,Çatak,Doğu Anadolu,38.6387,43.4317,1907,476,ZB,Very Low,Very High,1.26
+859,Van,Edremit,Doğu Anadolu,38.5762,43.3708,1545,463,ZB,Very Low,Very High,1.28
+860,Van,Erciş,Doğu Anadolu,38.6554,43.1859,1768,471,ZB,Very Low,Very High,1.27
+861,Van,Gevaş,Doğu Anadolu,38.5236,43.2467,1700,490,ZB,Very Low,Very High,1.25
+862,Van,Gürpınar,Doğu Anadolu,38.4683,43.3043,1746,504,ZB,Very Low,Very High,1.23
+863,Van,İpekyolu,Doğu Anadolu,38.3097,43.1658,1753,519,ZB,Very Low,Very High,1.21
+864,Van,Muradiye,Doğu Anadolu,38.3161,43.3309,1557,469,ZB,Very Low,Very High,1.27
+865,Van,Özalp,Doğu Anadolu,38.4134,43.4212,1821,494,ZB,Very Low,Very High,1.24
+866,Van,Saray,Doğu Anadolu,38.3514,43.5248,1629,471,ZB,Very Low,Very High,1.27
+867,Van,Tuşba,Doğu Anadolu,38.4043,43.6059,1807,472,ZB,Very Low,Very High,1.27
+868,Yozgat,Akdağmadeni,İç Anadolu,39.82,35.1157,1440,449,ZB,Very Low,Medium,1.3
+869,Yozgat,Aydıncık,İç Anadolu,39.8878,34.979,1117,471,ZB,Very Low,Medium,1.27
+870,Yozgat,Boğazlıyan,İç Anadolu,39.8793,34.8667,1320,478,ZB,Very Low,Medium,1.26
+871,Yozgat,Çandır,İç Anadolu,39.9924,34.8572,1203,494,ZB,Very Low,Medium,1.24
+872,Yozgat,Çayıralan,İç Anadolu,39.9624,34.771,1106,492,ZB,Very Low,Medium,1.24
+873,Yozgat,Çekerek,İç Anadolu,40.0161,34.6223,1470,487,ZB,Very Low,Medium,1.25
+874,Yozgat,Kadışehri,İç Anadolu,39.8751,34.6728,1436,485,ZB,Very Low,Medium,1.25
+875,Yozgat,Merkez,İç Anadolu,39.82,34.6208,1335,503,ZB,Very Low,Medium,1.23
+876,Yozgat,Saraykent,İç Anadolu,39.7639,34.6701,1391,477,ZB,Very Low,Medium,1.26
+877,Yozgat,Sarıkaya,İç Anadolu,39.6992,34.6944,1276,448,ZB,Very Low,Medium,1.3
+878,Yozgat,Sorgun,İç Anadolu,39.6644,34.7674,1198,459,ZB,Very Low,Medium,1.29
+879,Yozgat,Şefaatli,İç Anadolu,39.6788,34.8487,1224,469,ZB,Very Low,Medium,1.27
+880,Yozgat,Yenifakılı,İç Anadolu,39.6757,34.9481,1433,480,ZB,Very Low,Medium,1.26
+881,Yozgat,Yerköy,İç Anadolu,39.7204,35.0581,1165,503,ZB,Very Low,Medium,1.23
+882,Zonguldak,Alaplı,Karadeniz,41.46,32.0799,86,401,ZB,Low,Medium,1.38
+883,Zonguldak,Çaycuma,Karadeniz,41.5745,31.9374,10,355,ZC,Medium,Medium,1.46
+884,Zonguldak,Devrek,Karadeniz,41.5739,31.8,51,409,ZB,Low,Medium,1.36
+885,Zonguldak,Gökçebey,Karadeniz,41.5473,31.6953,124,356,ZC,Medium,Medium,1.46
+886,Zonguldak,Kilimli,Karadeniz,41.46,31.6285,92,353,ZC,Medium,Medium,1.47
+887,Zonguldak,Kozlu,Karadeniz,41.319,31.6307,85,361,ZB,Low,Medium,1.45
+888,Zonguldak,Merkez,Karadeniz,41.2928,31.8,49,344,ZC,Medium,Medium,1.49
+889,Zonguldak,Ereğli,Karadeniz,41.2534,32.0479,0,381,ZB,Low,Medium,1.41
+890,Aksaray,Ağaçören,İç Anadolu,38.37,34.1746,1002,450,ZB,Very Low,Medium,1.3
+891,Aksaray,Eskil,İç Anadolu,38.571,34.2812,981,474,ZB,Very Low,Medium,1.27
+892,Aksaray,Gülağaç,İç Anadolu,38.5611,34.04,885,423,ZB,Very Low,Medium,1.34
+893,Aksaray,Güzelyurt,İç Anadolu,38.432,33.9656,872,474,ZB,Very Low,Medium,1.27
+894,Aksaray,Merkez,İç Anadolu,38.37,33.698,1086,454,ZB,Very Low,Medium,1.29
+895,Aksaray,Ortaköy,İç Anadolu,38.3173,33.9767,1031,467,ZB,Very Low,Medium,1.28
+896,Aksaray,Sarıyahşi,İç Anadolu,38.0992,34.04,1072,472,ZB,Very Low,Medium,1.27
+897,Aksaray,Sultanhanı,İç Anadolu,38.1969,34.2477,895,418,ZB,Very Low,Medium,1.35
+898,Bayburt,Aydıntepe,Karadeniz,40.26,40.3742,1581,504,ZB,Very Low,Medium,1.23
+899,Bayburt,Demirözü,Karadeniz,40.3512,40.1568,1681,510,ZB,Very Low,Medium,1.22
+900,Bayburt,Merkez,Karadeniz,40.0779,40.0938,1591,492,ZB,Very Low,Medium,1.24
+901,Karaman,Ayrancı,İç Anadolu,37.18,33.4456,875,423,ZB,Very Low,Medium,1.34
+902,Karaman,Başyayla,İç Anadolu,37.3138,33.3227,884,467,ZB,Very Low,Medium,1.28
+903,Karaman,Ermenek,İç Anadolu,37.2991,33.1475,1142,496,ZB,Very Low,Medium,1.24
+904,Karaman,Kazımkarabekir,İç Anadolu,37.18,33.1661,1136,501,ZB,Very Low,Medium,1.23
+905,Karaman,Merkez,İç Anadolu,37.0347,33.1293,1018,454,ZB,Very Low,Medium,1.29
+906,Karaman,Sarıveliler,İç Anadolu,37.0757,33.3022,1108,454,ZB,Very Low,Medium,1.29
+907,Kırıkkale,Bahşili,İç Anadolu,39.85,33.6411,659,454,ZB,Very Low,Medium,1.29
+908,Kırıkkale,Balışeyh,İç Anadolu,39.9629,33.6815,935,460,ZB,Very Low,Medium,1.29
+909,Kırıkkale,Çelebi,İç Anadolu,40.0712,33.5668,851,450,ZB,Very Low,Medium,1.3
+910,Kırıkkale,Delice,İç Anadolu,39.9981,33.4174,724,465,ZB,Very Low,Medium,1.28
+911,Kırıkkale,Karakeçili,İç Anadolu,39.934,33.2431,912,468,ZB,Very Low,Medium,1.27
+912,Kırıkkale,Keskin,İç Anadolu,39.763,33.2332,890,418,ZB,Very Low,Medium,1.35
+913,Kırıkkale,Merkez,İç Anadolu,39.733,33.4389,939,422,ZB,Very Low,Medium,1.34
+914,Kırıkkale,Sulakyurt,İç Anadolu,39.6313,33.5663,689,459,ZB,Very Low,Medium,1.29
+915,Kırıkkale,Yahşihan,İç Anadolu,39.713,33.7159,943,465,ZB,Very Low,Medium,1.28
+916,Batman,Beşiri,Güneydoğu Anadolu,37.88,41.2786,576,389,ZB,Very Low,Medium,1.4
+917,Batman,Gercüş,Güneydoğu Anadolu,37.9862,41.2136,427,364,ZB,Very Low,Medium,1.44
+918,Batman,Hasankeyf,Güneydoğu Anadolu,38.0195,41.0433,519,371,ZB,Very Low,Medium,1.43
+919,Batman,Kozluk,Güneydoğu Anadolu,37.88,40.8393,342,359,ZC,Low,Medium,1.45
+920,Batman,Merkez,Güneydoğu Anadolu,37.7754,41.0676,434,395,ZB,Very Low,Medium,1.39
+921,Batman,Sason,Güneydoğu Anadolu,37.7727,41.2143,701,403,ZB,Very Low,Medium,1.37
+922,Şırnak,Beytüşşebap,Güneydoğu Anadolu,37.42,42.6721,1419,440,ZB,Very Low,Medium,1.31
+923,Şırnak,Cizre,Güneydoğu Anadolu,37.4595,42.5278,1409,424,ZB,Very Low,Medium,1.34
+924,Şırnak,Güçlükonak,Güneydoğu Anadolu,37.6745,42.4203,1593,480,ZB,Very Low,Medium,1.26
+925,Şırnak,İdil,Güneydoğu Anadolu,37.5022,42.2852,1582,458,ZB,Very Low,Medium,1.29
+926,Şırnak,Merkez,Güneydoğu Anadolu,37.3698,42.3648,1478,403,ZB,Very Low,Medium,1.37
+927,Şırnak,Silopi,Güneydoğu Anadolu,37.1288,42.4103,1313,429,ZB,Very Low,Medium,1.33
+928,Şırnak,Uludere,Güneydoğu Anadolu,37.3096,42.5956,1320,433,ZB,Very Low,Medium,1.32
+929,Bartın,Amasra,Karadeniz,41.58,32.8182,0,379,ZB,Low,Medium,1.42
+930,Bartın,Kurucaşile,Karadeniz,41.6359,32.46,174,362,ZB,Low,Medium,1.45
+931,Bartın,Merkez,Karadeniz,41.58,32.1357,211,399,ZB,Very Low,Medium,1.38
+932,Bartın,Ulus,Karadeniz,41.4892,32.46,44,354,ZC,Medium,Medium,1.47
+933,Ardahan,Çıldır,Doğu Anadolu,41.11,42.8565,2002,545,ZB,Very Low,Medium,1.18
+934,Ardahan,Damal,Doğu Anadolu,41.1811,42.7493,1869,594,ZB,Very Low,Medium,1.13
+935,Ardahan,Göle,Doğu Anadolu,41.2972,42.5703,1664,546,ZB,Very Low,Medium,1.18
+936,Ardahan,Hanak,Doğu Anadolu,41.11,42.421,1836,590,ZB,Very Low,Medium,1.13
+937,Ardahan,Merkez,Doğu Anadolu,40.8954,42.5513,1777,552,ZB,Very Low,Medium,1.17
+938,Ardahan,Posof,Doğu Anadolu,41.0642,42.7317,1644,587,ZB,Very Low,Medium,1.14
+939,Iğdır,Aralık,Doğu Anadolu,39.89,44.1804,1010,552,ZB,Very Low,Medium,1.17
+940,Iğdır,Karakoyunlu,Doğu Anadolu,40.0511,44.0,899,522,ZB,Very Low,Medium,1.21
+941,Iğdır,Merkez,Doğu Anadolu,39.89,43.8795,730,522,ZB,Very Low,Medium,1.21
+942,Iğdır,Tuzluca,Doğu Anadolu,39.8273,44.0,924,531,ZB,Very Low,Medium,1.2
+943,Yalova,Altınova,Marmara,40.65,29.5222,0,150,ZE,Very High,Very High,2.25
+944,Yalova,Armutlu,Marmara,40.7676,29.3515,15,150,ZE,Very High,Very High,2.25
+945,Yalova,Çınarcık,Marmara,40.7472,29.2027,0,172,ZD,High,Very High,2.1
+946,Yalova,Çiftlikköy,Marmara,40.65,29.1295,0,150,ZE,Very High,Very High,2.25
+947,Yalova,Merkez,Marmara,40.6038,29.238,88,165,ZD,High,Very High,2.15
+948,Yalova,Termal,Marmara,40.465,29.3982,107,168,ZD,High,Very High,2.13
+949,Karabük,Eflani,Karadeniz,41.21,32.8771,313,378,ZB,Very Low,Medium,1.42
+950,Karabük,Eskipazar,Karadeniz,41.3753,32.7345,395,379,ZB,Very Low,Medium,1.42
+951,Karabük,Merkez,Karadeniz,41.3468,32.5252,194,370,ZB,Low,Medium,1.43
+952,Karabük,Ovacık,Karadeniz,41.21,32.4185,350,427,ZB,Very Low,Medium,1.33
+953,Karabük,Safranbolu,Karadeniz,41.1422,32.573,484,378,ZB,Very Low,Medium,1.42
+954,Karabük,Yenice,Karadeniz,41.041,32.7371,439,408,ZB,Very Low,Medium,1.36
+955,Kilis,Elbeyli,Güneydoğu Anadolu,36.72,37.3837,795,413,ZB,Very Low,Medium,1.36
+956,Kilis,Merkez,Güneydoğu Anadolu,36.7964,37.12,695,379,ZB,Very Low,Medium,1.42
+957,Kilis,Musabeyli,Güneydoğu Anadolu,36.72,36.863,531,406,ZB,Very Low,Medium,1.37
+958,Kilis,Polateli,Güneydoğu Anadolu,36.5662,37.12,564,390,ZB,Very Low,Medium,1.4
+959,Osmaniye,Bahçe,Akdeniz,37.21,36.2701,42,263,ZC,Medium,Very High,1.7
+960,Osmaniye,Düziçi,Akdeniz,37.402,36.3638,107,324,ZC,Medium,Very High,1.53
+961,Osmaniye,Hasanbeyli,Akdeniz,37.4676,36.1094,10,299,ZC,Medium,Very High,1.59
+962,Osmaniye,Kadirli,Akdeniz,37.2776,36.0116,27,250,ZC,Medium,Very High,1.74
+963,Osmaniye,Merkez,Akdeniz,37.1278,35.9752,135,298,ZC,Medium,Very High,1.6
+964,Osmaniye,Sumbas,Akdeniz,37.1265,36.1571,118,313,ZC,Medium,Very High,1.56
+965,Osmaniye,Toprakkale,Akdeniz,37.1256,36.2608,152,310,ZC,Medium,Very High,1.57
+966,Düzce,Akçakoca,Karadeniz,40.84,31.4904,0,296,ZC,Medium,Very High,1.6
+967,Düzce,Cumayeri,Karadeniz,40.9898,31.3398,212,310,ZC,Low,Very High,1.57
+968,Düzce,Çilimli,Karadeniz,41.0129,31.16,256,310,ZC,Low,Very High,1.57
+969,Düzce,Gölyaka,Karadeniz,40.9463,31.0324,294,301,ZC,Low,Very High,1.59
+970,Düzce,Gümüşova,Karadeniz,40.84,30.9453,236,323,ZC,Low,Very High,1.53
+971,Düzce,Kaynaşlı,Karadeniz,40.69,30.98,231,308,ZC,Low,Very High,1.57
+972,Düzce,Merkez,Karadeniz,40.5758,31.16,131,291,ZC,Medium,Very High,1.62
+973,Düzce,Yığılca,Karadeniz,40.6372,31.4034,130,315,ZC,Medium,Very High,1.55

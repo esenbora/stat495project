@@ -1,0 +1,5 @@
+plate,pole_lat,pole_lon,rotation_rate_deg_myr,reference,description
+Anatolia,31.1,32.6,1.2,McClusky et al. (2000),"Counterclockwise rotation, westward motion"
+Arabia,32.9,23.8,0.4,Reilinger et al. (2006),"Northward motion, collision with Eurasia"
+Africa,21.0,-20.6,0.13,NUVEL-1A,Northward subduction under Aegean
+Aegean,40.5,23.0,0.5,Le Pichon et al. (1995),"SW motion, back-arc extension"
