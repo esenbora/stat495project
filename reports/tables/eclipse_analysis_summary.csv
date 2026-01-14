@@ -1,0 +1,9 @@
+Analysis,Value,Significant
+Eclipse Days vs Non-Eclipse (Mean EQ Count),48.53 vs 50.03,No
+Eclipse Days vs Non-Eclipse (T-test p-value),0.7886,-
+Solar Eclipse Mean EQ Count,46.12,-
+Lunar Eclipse Mean EQ Count,50.66,-
+Non-Eclipse Mean EQ Count,50.03,-
+RQ-F1: Binomial Test p-value,0.0219,Yes
+RQ-F2: ANOVA p-value,0.2889,No
+Rate Ratio (Eclipse/Non-Eclipse),0.9700,-

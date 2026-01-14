@@ -1,0 +1,13 @@
+RQ,Question,Method,Result
+A1,Spatial clustering of major earthquakes,DBSCAN + Monte Carlo,TBD
+A3,Shallow depth-magnitude relationship,Mann-Whitney U + Logistic,TBD
+B1,Non-linear fault distance effect,Polynomial regression + F-test,TBD
+C3,Depth-soil type relationship,ANOVA + Chi-square,TBD
+D1,Pressure anomaly on daily count,Negative Binomial,TBD
+D2,Low pressure on major earthquake,Logistic regression,TBD
+E1,Non-linear moon age effect,Periodic logistic + LR test,TBD
+F1,Eclipse day earthquake rate,Mann-Whitney + Binomial,TBD
+F2,Eclipse type differences,Kruskal-Wallis,TBD
+G1,GPS velocity correlation,Chi-square + Odds ratio,TBD
+I1,Extreme pressure day deviation,Z-test,TBD
+I2,Pressure × moon interaction,Logistic interaction,TBD

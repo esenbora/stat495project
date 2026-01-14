@@ -1,0 +1,7 @@
+RQ,EPV,VIF,Linearity,Influential_Obs,AUC,Hosmer_Lemeshow,Cell_Size,Interaction_Test,Normality,Homoscedasticity,Independence,Overdispersion
+RQ1,PASS,PASS,CAUTION,PASS,,,,,,,,
+RQ2,PASS,,CAUTION,,,,,,,,,
+RQ3,PASS,PASS,,,PASS,PASS,,,,,,
+RQ4,,,,,,,PASS,Significant,,,,
+RQ5,,PASS,,,,,,,PASS,CORRECTED (HC3),PASS,
+RQ6,,,,,,,,,,,,Present
