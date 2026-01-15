@@ -1,0 +1,9 @@
+RQ,Question,Test,Result,Significant
+RQ-NEW-1,Eclipse vs Non-Eclipse Rate,Fisher's Exact Test,p=0.4484,No
+RQ-NEW-2,Eclipse Magnitude Effect,Poisson/NB Regression,See above,-
+RQ-NEW-3,Moon Illumination Effect,Poisson Regression,p=0.0000,Yes
+RQ-NEW-4,Time-of-Day Uniformity,Chi-square + SR,p=1.5817e-01,No
+RQ-NEW-5,Seasonal Uniformity,Chi-square + SR,p=1.2127e-46,Yes
+RQ-NEW-6,Magnitude Predictors,Multiple Regression,R²=0.0067,-
+RQ-NEW-7,Near-Fault Effects,Multiple Regression,R²=0.0129,-
+RQ-NEW-8,High Risk Overlap,Logistic + VIF,See above,-
