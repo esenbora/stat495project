@@ -1,0 +1,7 @@
+Metric,Value
+Model Type,Poisson
+Eclipse Magnitude Coefficient,-0.1615
+p-value,0.9427
+Rate Ratio,0.8508
+Overdispersion Ratio,0.89
+Significant,No

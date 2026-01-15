@@ -1,0 +1,10 @@
+Metric,Value
+Eclipse with Major EQ,31
+Eclipse without Major EQ,95
+Non-Eclipse with Major EQ,2263
+Non-Eclipse without Major EQ,8107
+Odds Ratio,1.1690
+p-value,0.4484
+95% CI Lower,0.7773
+95% CI Upper,1.7581
+Significant,No

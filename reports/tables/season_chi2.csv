@@ -1,0 +1,5 @@
+season,observed,expected,standardized_residual,significant
+Winter,1431,1025.75,12.653255007936933,True
+Spring,873,1025.75,-4.7693638555517985,True
+Summer,864,1025.75,-5.050373837220972,True
+Fall,935,1025.75,-2.833517315164162,True

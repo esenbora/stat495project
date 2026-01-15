@@ -1,0 +1,7 @@
+group1,group2,meandiff,p-adj,lower,upper,reject
+Full Moon,New Moon,-0.0241,0.0,-0.034,-0.0141,True
+Full Moon,Waning,-0.0067,0.2331,-0.0158,0.0024,False
+Full Moon,Waxing,-0.0005,0.9995,-0.012,0.011,False
+New Moon,Waning,0.0174,0.0,0.0112,0.0236,True
+New Moon,Waxing,0.0236,0.0,0.0142,0.033,True
+Waning,Waxing,0.0062,0.2409,-0.0023,0.0147,False

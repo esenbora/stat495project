@@ -1,0 +1,7 @@
+Metric,Value
+Best Model,Quadratic
+AIC (Linear),22809.29
+AIC (Quadratic),22761.44
+Linear Illumination Coefficient,0.3207
+Linear p-value,0.0000
+Significant (Linear),Yes
