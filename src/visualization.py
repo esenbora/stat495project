@@ -12,7 +12,7 @@ try:
         FIGURE_DPI, FIGURE_SIZE_DEFAULT, FIGURE_SIZE_LARGE, FIGURE_SIZE_WIDE,
         FONT_SIZE, TITLE_SIZE, LABEL_SIZE,
         CLUSTER_CMAP, DENSITY_CMAP, DEPTH_CMAP,
-        TURKEY_BOUNDS
+        TURKEY_BOUNDS, TURKEY_PROVINCES_GEOJSON
     )
 except ImportError:
     from config import (
@@ -20,8 +20,11 @@ except ImportError:
         FIGURE_DPI, FIGURE_SIZE_DEFAULT, FIGURE_SIZE_LARGE, FIGURE_SIZE_WIDE,
         FONT_SIZE, TITLE_SIZE, LABEL_SIZE,
         CLUSTER_CMAP, DENSITY_CMAP, DEPTH_CMAP,
-        TURKEY_BOUNDS
+        TURKEY_BOUNDS, TURKEY_PROVINCES_GEOJSON
     )
+
+# Cache for Turkey GeoDataFrame
+_turkey_gdf_cache = None
 
 
 def setup_style():
@@ -596,3 +599,502 @@ def save_figure(fig, filename, folder=None, dpi=FIGURE_DPI, formats=['png']):
         filepath = os.path.join(folder, f"{filename}.{fmt}")
         fig.savefig(filepath, dpi=dpi, bbox_inches='tight', facecolor='white')
         print(f"Saved: {filepath}")
+
+
+# =============================================================================
+# TURKEY MAP FUNCTIONS WITH GEOPANDAS
+# =============================================================================
+
+def load_turkey_provinces(geojson_path=None):
+    """
+    Load Turkey provinces GeoDataFrame with caching.
+
+    Parameters
+    ----------
+    geojson_path : str, optional
+        Path to Turkey provinces GeoJSON file.
+        If None, uses TURKEY_PROVINCES_GEOJSON from config.
+
+    Returns
+    -------
+    geopandas.GeoDataFrame
+        Turkey provinces with geometry
+    """
+    global _turkey_gdf_cache
+
+    if _turkey_gdf_cache is not None:
+        return _turkey_gdf_cache
+
+    try:
+        import geopandas as gpd
+    except ImportError:
+        raise ImportError("geopandas is required for Turkey map functions. Install with: pip install geopandas")
+
+    if geojson_path is None:
+        geojson_path = TURKEY_PROVINCES_GEOJSON
+
+    _turkey_gdf_cache = gpd.read_file(geojson_path)
+    return _turkey_gdf_cache
+
+
+def normalize_province_name(name):
+    """
+    Normalize Turkish province names for matching.
+
+    Handles encoding issues and common variations between Turkish and ASCII.
+    """
+    if name is None:
+        return None
+
+    # Convert to uppercase for comparison
+    name = str(name).strip().upper()
+
+    # Common replacements for Turkish characters (both directions)
+    replacements = {
+        'İ': 'I', 'Ş': 'S', 'Ğ': 'G', 'Ü': 'U', 'Ö': 'O', 'Ç': 'C',
+        'ı': 'I', 'ş': 'S', 'ğ': 'G', 'ü': 'U', 'ö': 'O', 'ç': 'C',
+        'Ä±': 'I',  # Unicode variant
+    }
+    for old, new in replacements.items():
+        name = name.replace(old, new)
+
+    # Special mappings for known variations (after character replacement)
+    name_mappings = {
+        # GeoJSON name: standard name (uppercase after char replacement)
+        'AFYONKARAHISAR': 'AFYON',
+        'AFYON': 'AFYON',
+        'KAHRAMANMARAS': 'K.MARAS',
+        'K.MARAS': 'K.MARAS',
+        'KINKKALE': 'KIRIKKALE',
+        'KIRIKKALE': 'KIRIKKALE',
+        'SANLIURFA': 'SANLIURFA',
+        'ZINGULDAK': 'ZONGULDAK',
+        'ZONGULDAK': 'ZONGULDAK',
+        'SIRNAK': 'SIRNAK',
+        'GUMUSHANE': 'GUMUSHANE',
+        'NEVSEHIR': 'NEVSEHIR',
+        'KIRSEHIR': 'KIRSEHIR',
+        'CANKIRI': 'CANKIRI',
+    }
+
+    return name_mappings.get(name, name)
+
+
+def create_turkey_basemap_geo(ax=None, figsize=None, title=None, show_labels=False):
+    """
+    Create a Turkey basemap with province boundaries using geopandas.
+
+    Parameters
+    ----------
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on. If None, creates new figure.
+    figsize : tuple, optional
+        Figure size. Defaults to FIGURE_SIZE_DEFAULT.
+    title : str, optional
+        Plot title
+    show_labels : bool
+        Whether to show province name labels
+
+    Returns
+    -------
+    tuple
+        (ax, gdf) - axes and GeoDataFrame
+    """
+    gdf = load_turkey_provinces()
+
+    if ax is None:
+        if figsize is None:
+            figsize = FIGURE_SIZE_DEFAULT
+        fig, ax = plt.subplots(figsize=figsize)
+
+    # Plot province boundaries
+    gdf.boundary.plot(ax=ax, linewidth=0.5, color='gray', alpha=0.7)
+
+    # Add province labels if requested
+    if show_labels:
+        for idx, row in gdf.iterrows():
+            centroid = row.geometry.centroid
+            ax.annotate(row['NAME_1'], xy=(centroid.x, centroid.y),
+                       ha='center', va='center', fontsize=6, alpha=0.6)
+
+    ax.set_xlim(TURKEY_BOUNDS['lon_min'], TURKEY_BOUNDS['lon_max'])
+    ax.set_ylim(TURKEY_BOUNDS['lat_min'], TURKEY_BOUNDS['lat_max'])
+    ax.set_xlabel('Longitude')
+    ax.set_ylabel('Latitude')
+    ax.set_aspect('equal')
+
+    if title:
+        ax.set_title(title, fontsize=TITLE_SIZE, fontweight='bold')
+
+    return ax, gdf
+
+
+def create_turkey_choropleth(data_df, value_column, province_column='province',
+                              cmap='YlOrRd', ax=None, figsize=None, title=None,
+                              legend_label=None, edgecolor='white', linewidth=0.5,
+                              missing_color='lightgray', vmin=None, vmax=None,
+                              show_labels=False):
+    """
+    Create a choropleth map of Turkey provinces.
+
+    Parameters
+    ----------
+    data_df : pandas.DataFrame
+        DataFrame containing province data
+    value_column : str
+        Column name with values to visualize
+    province_column : str
+        Column name with province names (default: 'province')
+    cmap : str
+        Matplotlib colormap name
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on
+    figsize : tuple, optional
+        Figure size
+    title : str, optional
+        Plot title
+    legend_label : str, optional
+        Colorbar label
+    edgecolor : str
+        Province boundary color
+    linewidth : float
+        Province boundary line width
+    missing_color : str
+        Color for provinces with no data
+    vmin, vmax : float, optional
+        Value range for colormap
+    show_labels : bool
+        Whether to show province names
+
+    Returns
+    -------
+    tuple
+        (fig, ax) - figure and axes
+    """
+    gdf = load_turkey_provinces()
+
+    if figsize is None:
+        figsize = FIGURE_SIZE_DEFAULT
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=figsize)
+    else:
+        fig = ax.get_figure()
+
+    # Normalize province names for matching
+    data_df = data_df.copy()
+    data_df['_norm_province'] = data_df[province_column].apply(normalize_province_name)
+
+    gdf = gdf.copy()
+    gdf['_norm_province'] = gdf['NAME_1'].apply(normalize_province_name)
+
+    # Merge data with GeoDataFrame
+    merged = gdf.merge(data_df[['_norm_province', value_column]],
+                       on='_norm_province', how='left')
+
+    # Plot base layer (missing data) - only if there are missing values
+    missing_data = merged[merged[value_column].isna()]
+    if len(missing_data) > 0:
+        missing_data.plot(
+            ax=ax, color=missing_color, edgecolor=edgecolor, linewidth=linewidth
+        )
+
+    # Plot choropleth
+    merged_with_data = merged[merged[value_column].notna()]
+    if len(merged_with_data) > 0:
+        merged_with_data.plot(
+            column=value_column, cmap=cmap, ax=ax,
+            edgecolor=edgecolor, linewidth=linewidth,
+            legend=True, vmin=vmin, vmax=vmax,
+            legend_kwds={'label': legend_label or value_column, 'shrink': 0.8}
+        )
+
+    # Add province labels if requested
+    if show_labels:
+        for idx, row in merged.iterrows():
+            centroid = row.geometry.centroid
+            ax.annotate(row['NAME_1'], xy=(centroid.x, centroid.y),
+                       ha='center', va='center', fontsize=5, alpha=0.7)
+
+    ax.set_xlim(TURKEY_BOUNDS['lon_min'], TURKEY_BOUNDS['lon_max'])
+    ax.set_ylim(TURKEY_BOUNDS['lat_min'], TURKEY_BOUNDS['lat_max'])
+    ax.set_xlabel('Longitude')
+    ax.set_ylabel('Latitude')
+    ax.set_aspect('equal')
+
+    if title:
+        ax.set_title(title, fontsize=TITLE_SIZE, fontweight='bold')
+
+    return fig, ax
+
+
+def plot_earthquakes_on_turkey_map(eq_df, lon_col='longitude', lat_col='latitude',
+                                    mag_col='magnitude', depth_col='depth',
+                                    color_by='magnitude', ax=None, figsize=None,
+                                    title=None, alpha=0.6, size_scale=10,
+                                    show_boundaries=True):
+    """
+    Plot earthquake scatter on Turkey map with province boundaries.
+
+    Parameters
+    ----------
+    eq_df : pandas.DataFrame
+        Earthquake data
+    lon_col, lat_col : str
+        Column names for coordinates
+    mag_col : str
+        Column name for magnitude (for sizing)
+    depth_col : str
+        Column name for depth (for coloring)
+    color_by : str
+        'magnitude', 'depth', or None
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on
+    figsize : tuple, optional
+        Figure size
+    title : str, optional
+        Plot title
+    alpha : float
+        Point transparency
+    size_scale : float
+        Size multiplier for points
+    show_boundaries : bool
+        Whether to show province boundaries
+
+    Returns
+    -------
+    tuple
+        (fig, ax)
+    """
+    if figsize is None:
+        figsize = FIGURE_SIZE_DEFAULT
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=figsize)
+    else:
+        fig = ax.get_figure()
+
+    # Plot Turkey base map with boundaries
+    if show_boundaries:
+        gdf = load_turkey_provinces()
+        gdf.plot(ax=ax, color='#f5f5f5', edgecolor='gray', linewidth=0.3, alpha=0.8)
+
+    # Get data
+    lons = eq_df[lon_col].values
+    lats = eq_df[lat_col].values
+
+    # Determine sizes
+    if mag_col and mag_col in eq_df.columns:
+        sizes = (eq_df[mag_col].values ** 2) * size_scale
+    else:
+        sizes = 20
+
+    # Determine colors and plot
+    if color_by == 'magnitude' and mag_col in eq_df.columns:
+        scatter = ax.scatter(lons, lats, c=eq_df[mag_col], s=sizes,
+                            cmap='YlOrRd', alpha=alpha, edgecolors='white',
+                            linewidth=0.3, zorder=5)
+        plt.colorbar(scatter, ax=ax, label='Magnitude', shrink=0.8)
+    elif color_by == 'depth' and depth_col in eq_df.columns:
+        scatter = ax.scatter(lons, lats, c=eq_df[depth_col], s=sizes,
+                            cmap=DEPTH_CMAP, alpha=alpha, edgecolors='white',
+                            linewidth=0.3, zorder=5)
+        plt.colorbar(scatter, ax=ax, label='Depth (km)', shrink=0.8)
+    else:
+        ax.scatter(lons, lats, s=sizes, c=COLORS['earthquake'],
+                  alpha=alpha, edgecolors='white', linewidth=0.3, zorder=5)
+
+    ax.set_xlim(TURKEY_BOUNDS['lon_min'], TURKEY_BOUNDS['lon_max'])
+    ax.set_ylim(TURKEY_BOUNDS['lat_min'], TURKEY_BOUNDS['lat_max'])
+    ax.set_xlabel('Longitude')
+    ax.set_ylabel('Latitude')
+    ax.set_aspect('equal')
+
+    if title:
+        ax.set_title(title, fontsize=TITLE_SIZE, fontweight='bold')
+
+    return fig, ax
+
+
+def plot_province_categories(data_df, category_column, province_column='province',
+                              color_map=None, ax=None, figsize=None, title=None,
+                              legend_title=None, edgecolor='white', linewidth=0.5,
+                              show_labels=False):
+    """
+    Plot Turkey map with categorical province data.
+
+    Parameters
+    ----------
+    data_df : pandas.DataFrame
+        DataFrame containing province data
+    category_column : str
+        Column name with categorical values
+    province_column : str
+        Column name with province names
+    color_map : dict, optional
+        Mapping from category to color
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on
+    figsize : tuple, optional
+        Figure size
+    title : str, optional
+        Plot title
+    legend_title : str, optional
+        Legend title
+    edgecolor : str
+        Province boundary color
+    linewidth : float
+        Province boundary line width
+    show_labels : bool
+        Whether to show province names
+
+    Returns
+    -------
+    tuple
+        (fig, ax)
+    """
+    gdf = load_turkey_provinces()
+
+    if figsize is None:
+        figsize = FIGURE_SIZE_DEFAULT
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=figsize)
+    else:
+        fig = ax.get_figure()
+
+    # Normalize province names
+    data_df = data_df.copy()
+    data_df['_norm_province'] = data_df[province_column].apply(normalize_province_name)
+
+    gdf = gdf.copy()
+    gdf['_norm_province'] = gdf['NAME_1'].apply(normalize_province_name)
+
+    # Merge
+    merged = gdf.merge(data_df[['_norm_province', category_column]],
+                       on='_norm_province', how='left')
+
+    # Get unique categories
+    categories = merged[category_column].dropna().unique()
+
+    # Generate color map if not provided
+    if color_map is None:
+        cmap = plt.cm.get_cmap('tab10')
+        color_map = {cat: cmap(i / len(categories)) for i, cat in enumerate(categories)}
+
+    # Plot each category
+    for cat in categories:
+        subset = merged[merged[category_column] == cat]
+        subset.plot(ax=ax, color=color_map.get(cat, 'gray'),
+                   edgecolor=edgecolor, linewidth=linewidth)
+
+    # Plot missing data
+    missing = merged[merged[category_column].isna()]
+    if len(missing) > 0:
+        missing.plot(ax=ax, color='lightgray', edgecolor=edgecolor,
+                    linewidth=linewidth)
+
+    # Create custom legend with patches
+    from matplotlib.patches import Patch
+    legend_elements = [Patch(facecolor=color_map.get(cat, 'gray'), edgecolor=edgecolor,
+                             label=cat) for cat in categories]
+    if len(missing) > 0:
+        legend_elements.append(Patch(facecolor='lightgray', edgecolor=edgecolor, label='No Data'))
+
+    ax.legend(handles=legend_elements, title=legend_title or category_column,
+              loc='lower right', fontsize=8, title_fontsize=9)
+
+    # Add province labels if requested
+    if show_labels:
+        for idx, row in merged.iterrows():
+            centroid = row.geometry.centroid
+            ax.annotate(row['NAME_1'], xy=(centroid.x, centroid.y),
+                       ha='center', va='center', fontsize=5, alpha=0.7)
+
+    ax.set_xlim(TURKEY_BOUNDS['lon_min'], TURKEY_BOUNDS['lon_max'])
+    ax.set_ylim(TURKEY_BOUNDS['lat_min'], TURKEY_BOUNDS['lat_max'])
+    ax.set_xlabel('Longitude')
+    ax.set_ylabel('Latitude')
+    ax.set_aspect('equal')
+
+    if title:
+        ax.set_title(title, fontsize=TITLE_SIZE, fontweight='bold')
+
+    return fig, ax
+
+
+def plot_kde_on_turkey_map(lons, lats, ax=None, figsize=None, title=None,
+                            levels=15, cmap=DENSITY_CMAP, fill=True,
+                            show_boundaries=True, alpha=0.7):
+    """
+    Plot KDE density contours on Turkey map with province boundaries.
+
+    Parameters
+    ----------
+    lons, lats : array-like
+        Longitude and latitude coordinates
+    ax : matplotlib.axes.Axes, optional
+        Axes to plot on
+    figsize : tuple, optional
+        Figure size
+    title : str, optional
+        Plot title
+    levels : int
+        Number of contour levels
+    cmap : str
+        Colormap name
+    fill : bool
+        Whether to fill contours
+    show_boundaries : bool
+        Whether to show province boundaries
+    alpha : float
+        Contour transparency
+
+    Returns
+    -------
+    tuple
+        (fig, ax, kde)
+    """
+    if figsize is None:
+        figsize = FIGURE_SIZE_DEFAULT
+
+    if ax is None:
+        fig, ax = plt.subplots(figsize=figsize)
+    else:
+        fig = ax.get_figure()
+
+    # Plot Turkey boundaries first (behind KDE)
+    if show_boundaries:
+        gdf = load_turkey_provinces()
+        gdf.boundary.plot(ax=ax, linewidth=0.5, color='gray', alpha=0.5, zorder=1)
+
+    # Create KDE
+    positions = np.vstack([lons, lats])
+    kde = stats.gaussian_kde(positions, bw_method='scott')
+
+    # Create grid
+    xi = np.linspace(TURKEY_BOUNDS['lon_min'], TURKEY_BOUNDS['lon_max'], 100)
+    yi = np.linspace(TURKEY_BOUNDS['lat_min'], TURKEY_BOUNDS['lat_max'], 100)
+    Xi, Yi = np.meshgrid(xi, yi)
+
+    # Evaluate KDE
+    Zi = kde(np.vstack([Xi.ravel(), Yi.ravel()])).reshape(Xi.shape)
+
+    # Plot
+    if fill:
+        contour = ax.contourf(Xi, Yi, Zi, levels=levels, cmap=cmap, alpha=alpha, zorder=2)
+        plt.colorbar(contour, ax=ax, label='Density', shrink=0.8)
+    else:
+        contour = ax.contour(Xi, Yi, Zi, levels=levels, cmap=cmap, zorder=2)
+        ax.clabel(contour, inline=True, fontsize=8)
+
+    ax.set_xlim(TURKEY_BOUNDS['lon_min'], TURKEY_BOUNDS['lon_max'])
+    ax.set_ylim(TURKEY_BOUNDS['lat_min'], TURKEY_BOUNDS['lat_max'])
+    ax.set_xlabel('Longitude')
+    ax.set_ylabel('Latitude')
+    ax.set_aspect('equal')
+
+    if title:
+        ax.set_title(title, fontsize=TITLE_SIZE, fontweight='bold')
+
+    return fig, ax, kde

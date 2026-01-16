@@ -25,6 +25,7 @@ MOON_DATA = os.path.join(DATA_RAW, "lunar/moon_daily_data_1990_2025.csv")
 MOON_PHASES_DATA = os.path.join(DATA_RAW, "lunar/moon_phases_1990_2025.csv")
 PRESSURE_DATA = os.path.join(DATA_RAW, "tectonic/turkey_atmospheric_pressure_1990_2025.csv")
 POPULATION_DATA = os.path.join(DATA_RAW, "population/turkey_population_density.xlsx")
+TURKEY_PROVINCES_GEOJSON = os.path.join(DATA_RAW, "geographic/gadm41_TUR_1.json")
 
 # =============================================================================
 # CONSTANTS
