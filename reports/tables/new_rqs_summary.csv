@@ -2,8 +2,14 @@ RQ,Question,Test,Result,Significant
 RQ-NEW-1,Eclipse vs Non-Eclipse Rate,Fisher's Exact Test,p=0.4484,No
 RQ-NEW-2,Eclipse Magnitude Effect,Poisson/NB Regression,See above,-
 RQ-NEW-3,Moon Illumination Effect,Poisson Regression,p=0.0000,Yes
-RQ-NEW-4,Time-of-Day Uniformity,Chi-square + SR,p=1.5817e-01,No
+RQ-NEW-4,Time-of-Day Uniformity,Chi-square + SR,p=6.6823e-06,Yes
 RQ-NEW-5,Seasonal Uniformity,Chi-square + SR,p=1.2127e-46,Yes
 RQ-NEW-6,Magnitude Predictors,Multiple Regression,R²=0.0067,-
 RQ-NEW-7,Near-Fault Effects,Multiple Regression,R²=0.0129,-
 RQ-NEW-8,High Risk Overlap,Logistic + VIF,See above,-
+RQ-NEW-9,Regional Building Age,Kruskal-Wallis + Dunn,See above,-
+RQ-NEW-10,EQ Vulnerability (Building Age),Logistic Regression,See above,-
+RQ-NEW-11,Safety Risk (Old Buildings),Chi-square + Mann-Whitney,See above,-
+RQ-NEW-12,Combined Vulnerability,Logistic Regression,See above,-
+RQ-NEW-13,EQ Frequency vs Building Age,Poisson/NB + Spearman,See above,-
+RQ-NEW-14,Fault Proximity + Building Age,Spearman + OLS,See above,-
