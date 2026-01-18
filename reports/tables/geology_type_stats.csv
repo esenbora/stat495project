@@ -1,0 +1,8 @@
+geology_type,count,mag_mean,mag_std,mag_max,depth_mean,depth_std,vs30_mean,vs30_std
+Graben sediments,216290,1.96,0.68,6.6,8.19,5.57,269.0,59.05
+Limestone/alluvium,70490,1.99,0.7,7.7,9.07,8.69,297.5,63.1
+Metamorphic/volcanic,24527,1.95,0.74,7.2,7.86,4.04,407.3,48.03
+Sedimentary basins,37441,2.01,0.71,7.4,8.09,3.97,191.34,23.08
+Sedimentary/limestone,24830,1.93,0.7,6.6,7.6,3.07,399.56,6.65
+Volcanic/metamorphic,101614,2.02,0.74,7.0,7.91,3.32,496.39,44.82
+Volcanic/plateau,39897,1.92,0.73,5.9,7.58,3.42,463.72,14.98
